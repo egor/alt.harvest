@@ -1,19 +1,14 @@
 <?php
 /**
- * Description of MainHeaderPortlet
+ * Description
  *
- * @author egorik
+ * @author Egor Rihnov <egor.developer@gmail.com>
  */
 
-class MainTopFormWidget extends CWidget
+class MainFooterFormWidget extends CWidget
 {
-    public $footer = 0;
     public function init()
     {
-        $this->render('mainTopFormWidget',array());
-    }
- 
-
+        $this->render('mainFooterFormWidget',array());
+    } 
 }
-
-?>

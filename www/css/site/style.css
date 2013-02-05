@@ -332,6 +332,105 @@ margin-top: 2px;
 background-position:0 -44px; /* ВСЯ ФИШКА ЗДЕСЬ! сдвигаем фон на 40 пикселей вверх, отрицательным значением background-position, тем самым показываем вторую часть изображения где наша кнопка активна */
 cursor: pointer;
 }
+
+
+
+.main-footer-form{
+    background: url(/images/site/main-footrer-klimat.jpg) no-repeat;
+    width: 531px;
+    height: 231px;
+    overflow: hidden;
+}
+
+.main-footer-form-a {
+    display:block; /* Ссылки будут блоками. */
+    width:166px;
+    height:38px;
+    background:url("/images/site/main-footer-form-b.png"); /* делаем картинку фоном (зная, что будет видна только половина картинки) */
+    border: none;
+    background-color: none;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-left: 353px;
+    margin-top: 180px;
+}
+.main-footer-form-a span{
+    display: inline-table;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.main-footer-modal{
+    display: none;
+    position: absolute;
+    width: 529px;
+    height: 202px;
+    background-color: #fff;
+    border: solid 1px #9aa893;
+    margin-top: -191px;
+}
+.main-footer-form-close{
+    display: inline-table;
+    margin-left: 507px;
+    margin-top: 3px;
+}
+.main-footer-form-in{
+    background: url(/images/site/main-footer-form-in.jpg) no-repeat;
+    width: 355px;
+    height: 56px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.main-footer-form-name span{
+    color: #636467;
+    font-size: 18px;
+    margin-left: 14px;
+    margin-right: 37px;
+}
+.main-footer-form-name{
+    margin-top: 10px;
+}
+.main-footer-form-phone span{
+    color: #636467;
+    font-size: 18px;
+    margin-left: 14px;
+    margin-right: 6px;
+}
+.main-footer-form-sub{
+    display:block; /* Ссылки будут блоками. */
+    width:166px;
+    height:38px;
+    background:url("/images/site/main-footer-form-b.png"); /* делаем картинку фоном (зная, что будет видна только половина картинки) */
+    border: none;
+    background-color: none;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-left: 353px;
+    margin-top: 8px;
+    border: none;
+    background-color: none;
+    font: bold 15px Arial,Helvetica,sans-serif;
+}
+.main-footer-form-sub:hover{
+    background-position:0 -38px;
+    cursor: pointer;
+}
+/* Стиль ссылки при наведённом курсоре */
+.main-footer-form-a:hover {
+    background-position:0 -38px;
+    cursor: pointer;
+}
+
+
 #content{
     margin-left: 16px;
 }
