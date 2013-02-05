@@ -18,6 +18,9 @@ class PagesController extends Controller {
     }
 
     public function actionDetail($id = 0) {
+        if ($id == $id = Yii::app()->params['modules']['zayavka']) {
+            SendForm::sendSmallForm();
+        }
         //echo $id;
         //var_dump($_GET); die;
         $model = Pages::model()->findByPk($id);
@@ -27,6 +30,8 @@ class PagesController extends Controller {
 
         $this->render('detail', array('model' => $model));
     }
+    
+   
 
     // Uncomment the following methods and override them if needed
     /*
