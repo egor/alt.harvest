@@ -14,9 +14,8 @@ class ReviewsController extends Controller {
      * Список записей
      */
     public function actionIndex() {
-
+        $this->pageTitle = 'Список отзывов | CMS ALTADMIN';
         $model = Reviews::model()->findAll(array('order' => 'date DESC'));
-
         $this->render('index', array('model' => $model));
     }
 
@@ -25,14 +24,12 @@ class ReviewsController extends Controller {
      * Добавляеться пустая запись, после чего переадресуем на редактирование
      */
     public function actionAdd() {
-
         $maxOrderNumber = Yii::app()->db->createCommand()
                 ->select('max(position) as max')
                 ->from('reviews')
                 ->queryScalar();
 
         $model = new Reviews;
-
         $model->position = $maxOrderNumber + 1;
         $model->date = time();
         $model->save();

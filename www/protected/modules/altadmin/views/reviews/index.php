@@ -31,7 +31,8 @@ endif;
                         <th class="header">id</th> 
                         <th class="header">Название</th> 
                         <th class="header">Дата</th> 
-                        <th class="header">Actions</th> 
+                        <th class="header">Вывод</th> 
+                        <th class="header">Действия</th> 
                     </tr> 
                 </thead> 
                 <tbody>
@@ -42,6 +43,7 @@ endif;
                                 <td>' . $value->reviews_id . '</td> 
     				<td>' . $value->menu_name . '</td> 
     				<td>' . date('d.m.Y', $value->date) . '</td> 
+                                <td>' . ($value->visibility == 1? '<span class="v-y">да</span>':'<span class="v-n">нет</span>') . '</td> 
     				<td>
                                 
                                     <a href="/altadmin/reviews/edit/' . $value->reviews_id . '"><input type="image" title="Edit" src="/images/altadmin/icn_edit.png"></a>

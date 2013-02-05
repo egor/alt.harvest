@@ -224,6 +224,13 @@ a img{
 .portlet-content ul.left-menu-last-stat{
     margin-left: 10px;
 }
+.right-video-header{
+    font-size: 21px;
+    font-weight: bold;
+    color: #f05d0a;
+    margin-left: 10px;
+}
+
 /*контент*/
 h1.main_h1{
     font-size: 20px;
@@ -530,6 +537,7 @@ h1 {
     font-size: 21px;
     color: #f05d0a;
     text-align: center;
+    font-weight: bold;
 }
 .consultant-foto{
     width: 100%;
@@ -747,4 +755,17 @@ html body div.content div.site-content div#content div.news_list div.news-item h
     
     width: 85px;
     overflow: hidden;
+}
+#content ul li{
+    margin-left: 30px;
+    color: #636467;
+    text-decoration: none;
+}
+#content ul li a{
+    color: #636467;
+    text-decoration: none;
+}
+#content ul li a:hover{
+    color: #636467;
+    text-decoration: underline;
 }

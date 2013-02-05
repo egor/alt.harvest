@@ -13,25 +13,30 @@ class PagesController extends Controller {
         $model = Pages::model()->findByPk(Yii::app()->params['modules']['mainPage']);
         $this->pageTitle = $model->meta_title;
         Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_keywords);
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_description);                
-        $this->render('main', array('model'=>$model));
+        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_description);
+        $this->render('main', array('model' => $model));
     }
 
     public function actionDetail($id = 0) {
-        if ($id == $id = Yii::app()->params['modules']['zayavka']) {
+        if ($id == Yii::app()->params['modules']['zayavka']) {
             SendForm::sendSmallForm();
         }
+
         //echo $id;
         //var_dump($_GET); die;
         $model = Pages::model()->findByPk($id);
         $this->pageTitle = $model->meta_title;
         Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_keywords);
         Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_description);
+        if ($id == Yii::app()->params['modules']['sitemap']) {
+            $this->render('sitemap', array('model' => $model));
+            return true;
+        }
 
         $this->render('detail', array('model' => $model));
     }
-    
-   
+
+
 
     // Uncomment the following methods and override them if needed
     /*

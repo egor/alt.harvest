@@ -96,10 +96,21 @@
                         <div class="right-call-phone"><table><tr><td><img class="right-call-phone-ico" src="/images/site/lrft-c-city.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('right_phone_phone_3'); ?></span></td></tr></table></div>
                         <div class="right-call-but"></div>
                     </div>
-                    <?php 
-                    //echo SelectDataFromEditFields::selectValue('right_video_header'); 
-                    //echo SelectDataFromEditFields::selectValue('right_video_link'); 
-                    //echo SelectDataFromEditFields::selectValue('right_otz_header'); 
+                    <div class="right-video">
+                        <div class="right-video-header">    
+                            <?php echo SelectDataFromEditFields::selectValue('right_video_header'); ?>
+                        </div>
+                        <?php echo SelectDataFromEditFields::selectValue('right_video_link'); ?>
+                    </div>
+                    
+                    <div class="right-last-re">
+                        <div class="right-last-re-header">    
+                            <?php echo SelectDataFromEditFields::selectValue('right_otz_header'); ?>
+                        </div>
+                        <?php $this->widget('LeftMenuLastReviewsWidget'); ?>
+                        <a href=""><?php echo SelectDataFromEditFields::selectValue('right_otz_link_text');?></a>
+                    </div>
+                    <?php
                     //echo SelectDataFromEditFields::selectValue('right_otz_link_text'); 
                     //echo SelectDataFromEditFields::selectValue('right_otz_link'); 
                     
@@ -112,7 +123,7 @@
                 <div class="footer-sep"></div>
                 <div class="footer">
                     <div class="footer-left">
-                        <div class="footer-left-logo"><a href=""><img src="/images/site/footer-logo.png" /></a></div>
+                        <div class="footer-left-logo"><a href="/"><img src="/images/site/footer-logo.png" /></a></div>
                         <div class="footer-left-phone">
                             <table>
                                 <tr><td><img class="footer-call-phone-ico" src="/images/site/footer-phone-kiyiv.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('footer_phone_1'); ?></span></td></tr>
@@ -132,16 +143,20 @@
                             <div class="footer-right-slogan-header"><?php echo SelectDataFromEditFields::selectValue('footer_slogan_title'); ?></div>
                             <div class="footer-right-slogan-text"><?php echo SelectDataFromEditFields::selectValue('footer_slogan_text'); ?></div>
                         </div>
+                        <?php
+                            $sitemapModel = Pages::model()->findByPk(Yii::app()->params['modules']['sitemap']);                                    
+                        ?>
                         <table class="cos-t">
                             <tr><td><span class="soc"><?php echo SelectDataFromEditFields::selectValue('footer_soc_title'); ?></span></td>
                                 <td rowspan="4">
-                                    <div class="footer-map-img"><a href="/sitemap"><img class="footer-map" 
+                                    <div class="footer-map-img"><a href="/<?php echo $sitemapModel->url; ?>"><img class="footer-map" 
                                         src="/images/site/footer-map2.png"
                                         alt="<?php echo SelectDataFromEditFields::selectValue('footer_map_alt'); ?>"
                                         title="<?php echo SelectDataFromEditFields::selectValue('footer_map_title'); ?>"
                                         
                                         /></a></div>
-                                    <div class="footer-map-text"><a href="/sitemap"><?php echo SelectDataFromEditFields::selectValue('footer_map_text'); ?></a></div>
+
+                                    <div class="footer-map-text"><a href="/<?php echo $sitemapModel->url; ?>"><?php echo SelectDataFromEditFields::selectValue('footer_map_text'); ?></a></div>
                                 </td></tr>
                             <tr><td>
                                     <a href="<?php echo SelectDataFromEditFields::selectValue('footer_google_link'); ?>"><img class="footer-google" src="/images/site/footer-google.png" /></a>
