@@ -24,30 +24,35 @@ endif;
 
     <div class="tab_container">
         <div class="tab_content" id="tab1" style="display: block;">
+            <table cellspacing="0" class="tablesorter"> 
+                <thead> 
+                    <tr> 
 
+                        <th class="header">id</th> 
+                        <th class="header">Название</th> 
+                        <th class="header">Дата</th> 
+                        <th class="header">Actions</th> 
+                    </tr> 
+                </thead> 
+                <tbody>
 
+                    <?php
+                  foreach ($model as $value) {
+                        echo '<tr>
+                                <td>' . $value->reviews_id . '</td> 
+    				<td>' . $value->menu_name . '</td> 
+    				<td>' . date('d.m.Y', $value->date) . '</td> 
+    				<td>
+                                
+                                    <a href="/altadmin/reviews/edit/' . $value->reviews_id . '"><input type="image" title="Edit" src="/images/altadmin/icn_edit.png"></a>
+                                    '.CHtml::link('<input type="image" title="Удалить" src="/images/altadmin/icn_trash.png">', array('/altadmin/reviews/delete/' . $value->reviews_id . ''), array('confirm'=>'Точно удалить?')).'
+                                </td>				
+                            </tr>';
+                    }
+                    ?>
 
-<?php
-echo '<ul id="sortable">';
-foreach ($model as $value) {
-    echo '<li id="note_' . $value->reviews_id . '" class="editable">
-                    <span class="note">' . $value->reviews_id . ' ' . $value->menu_name . '</span>
-                    <a href="/altadmin/reviews/edit/' . $value->reviews_id . '"><input type="image" title="Edit" src="/images/altadmin/icn_edit.png"></a>
-                    ' . CHtml::link('<input type="image" title="Удалить" src="/images/altadmin/icn_trash.png">', array('/altadmin/reviews/delete/' . $value->reviews_id . ''), array('confirm' => 'Точно удалить?')) . '
-        </li>';
-}
-echo '</ul>';
-?>
-
-
-
+                </tbody> 
+            </table>
         </div>
-        <footer>
-            <div class="submit_link">
-                <form id="changeOrder" method="post" action="/altadmin/reviews/changeOrder">
-                    <input type="submit" value="Сохранить сортировку" class="alt_btn" />
-                </form>
-            </div>
-        </footer>
+
 </article>
-<h4 class="alert_info"><p>Для изменения порядка вывода, наведите на отзыв зажмите левую кнопку мыши и перетяните отзыв в нужное место. После того как вы выстроили отзывы в нужном порядке нажмите кнопку "Сохранить сортировку"</p></h4>

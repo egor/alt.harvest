@@ -109,7 +109,7 @@ endif; ?>
                             <p>&nbsp;&nbsp;&nbsp;<?php echo $form->fileField($pages, 'img'); ?></p>
                             <?php echo $form->error($pages, 'img'); 
                             if (!empty($pages->img)) {
-                                echo '<p>&nbsp;&nbsp;&nbsp;<img src="/images/news/'.$pages->img.'" height="100px;"></p>';
+                                echo '<p>&nbsp;&nbsp;&nbsp;<img src="/images/pages/'.$pages->img.'" height="100px;"></p>';
                             }
                             echo $form->labelEx($pages, 'img_alt'); ?>
                             <?php echo $form->textField($pages, 'img_alt'); ?>
