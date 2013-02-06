@@ -1,5 +1,13 @@
 <?php
-
+/**
+ * BannersController
+ * 
+ * Управление баннерами. Создание, удаление, редактирование
+ * 
+ * @author Egor Rihnov <egor.developer@gmail.com>
+ * @version 1.0
+ * @package backEnd
+ */
 class BannersController extends Controller
 {
 	public function actionIndex() {
