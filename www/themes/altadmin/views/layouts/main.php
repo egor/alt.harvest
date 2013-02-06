@@ -132,6 +132,12 @@
                         <li class="icn_new_article"><a href="/altadmin/works/add">Добавить работу</a></li>
                         <li class="icn_settings"><a href="/altadmin/works/settings">Настройки</a></li>
 		</ul>
+                <h3>Видео советы</h3>
+		<ul class="toggle">
+			<li class="icn_categories"><a href="/altadmin/videoTips/">Список советов</a></li>
+                        <li class="icn_new_article"><a href="/altadmin/videoTips/add">Добавить совет</a></li>
+                        <li class="icn_settings"><a href="/altadmin/videoTips/settings">Настройки</a></li>
+		</ul>
                 <h3>Контент</h3>
 		<ul class="toggle">
 			<li class="icn_categories"><a href="/altadmin/pages">Дерево</a></li>

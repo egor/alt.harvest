@@ -114,7 +114,44 @@ class ReviewsController extends Controller {
         return true;
     }
 
-    
+     /**
+     * Настройки модуля "Отзывы"
+     * @return type
+     */
+    public function actionSettings() {
+        $id = Yii::app()->params['modules']['reviews'];
+        $model = Pages::model()->findByPk($id);
+        $modelSettings['numPage'] = Settings::model()->findByPk(4);
+
+        $this->pageTitle = 'Настройка модуля отзывы | CMS ALTADMIN';
+        if (isset($_POST['Pages']) || isset($_POST['Settings'])) {
+            $model->attributes = $_POST['Pages'];
+            $modelSettings['numPage']->attributes = $_POST['Settings'];
+            $modelSettings['numPage']->attributes = (int)$modelSettings['numPage']->attributes;
+            $modelSettings['numPage']->save();
+            $u = Pages::model()->find('url="' . $model->url . '" AND pages_id!="' . $id . '"');
+            if (!empty($u->pages_id)) {
+                $model->addError('url', 'url уже занят');
+                $this->render('settings', array('settings' => $model));
+                return;
+            }
+            if (empty($model->url)){
+                $model->addError('url', 'url не может быть пустым');
+                $this->render('settings', array('settings' => $model));
+                return;            
+            }
+            Yii::app()->user->setFlash('success', "Настройки сохранены");
+            if (!isset($_POST['yt0'])) {
+                $model->saveNode();
+            }
+            if (isset($_POST['yt2']) || isset($_POST['yt0'])) {
+                Yii::app()->request->redirect('/altadmin/reviews/');
+            } elseif (isset($_POST['yt1'])) {
+                Yii::app()->request->redirect('/altadmin/reviews/settings/');
+            }   
+        }
+        $this->render('settings', array('settings' => $model, 'paginator' => $modelSettings['numPage']));
+    }
     
     
     

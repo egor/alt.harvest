@@ -8055,3 +8055,99 @@ Stack trace:
 REQUEST_URI=/altadmin/works/
 HTTP_REFERER=http://okna.local/altadmin/works/edit/3
 ---
+2013/02/06 14:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icn_edit.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/icn_edit...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/icn_edit.png
+HTTP_REFERER=http://okna.local/altadmin
+---
+2013/02/06 14:48:51 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'okna.videotips' doesn't exist. The SQL statement executed was: SELECT max(position) as max
+FROM `videoTips`.
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\VideoTipsController.php (32)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/06 14:48:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'okna.videotips' doesn't exist. The SQL statement executed was: SELECT max(position) as max
+FROM `videoTips`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 Z:\home\okna.local\www\protected\modules\altadmin\controllers\VideoTipsController.php(32): CDbCommand->queryScalar()
+#2 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(49): VideoTipsController->actionAdd()
+#3 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('add')
+#7 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/videoT...')
+#8 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/altadmin/videoTips/add/
+HTTP_REFERER=http://okna.local/altadmin/videoTips/
+---
+2013/02/06 15:05:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/works/...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/works/settings
+HTTP_REFERER=http://okna.local/altadmin/videoTips/
+---
+2013/02/06 15:05:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/review...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/reviews/settings
+HTTP_REFERER=http://okna.local/altadmin/works/settings
+---
+2013/02/06 15:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/works/...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/works/settings
+HTTP_REFERER=http://okna.local/altadmin/videoTips/settings/
+---
+2013/02/06 15:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/review...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/reviews/settings
+HTTP_REFERER=http://okna.local/altadmin/works/settings
+---
+2013/02/06 15:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/review...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/reviews/settings
+HTTP_REFERER=http://okna.local/altadmin/works/settings
+---
+2013/02/06 15:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/review...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/reviews/settings
+HTTP_REFERER=http://okna.local/altadmin/works/settings/
+---

@@ -14,7 +14,7 @@ class WorksController extends Controller {
      * Выводит список всех работ
      */
     public function actionIndex() {
-        $model = Works::model()->findAll(array('order' => 'position DESC'));
+        $model = Works::model()->findAll(array('order' => 'date DESC'));
         $this->render('index', array('model' => $model));
     }
 
@@ -142,6 +142,47 @@ class WorksController extends Controller {
         Works::model()->updateByPk($id, array('img'=>''));
         return true;
     }
+    
+    /**
+     * Настройки модуля "Наши работы"
+     * @return type
+     */
+    public function actionSettings() {
+        $id = Yii::app()->params['modules']['works'];
+        $model = Pages::model()->findByPk($id);
+        $modelSettings['numPage'] = Settings::model()->findByPk(6);
+
+        $this->pageTitle = 'Настройка модуля работ | CMS ALTADMIN';
+        if (isset($_POST['Pages']) || isset($_POST['Settings'])) {
+            $model->attributes = $_POST['Pages'];
+            $modelSettings['numPage']->attributes = $_POST['Settings'];
+            $modelSettings['numPage']->attributes = (int)$modelSettings['numPage']->attributes;
+            $modelSettings['numPage']->save();
+            $u = Pages::model()->find('url="' . $model->url . '" AND pages_id!="' . $id . '"');
+            if (!empty($u->pages_id)) {
+                $model->addError('url', 'url уже занят');
+                $this->render('settings', array('settings' => $model));
+                return;
+            }
+            if (empty($model->url)){
+                $model->addError('url', 'url не может быть пустым');
+                $this->render('settings', array('settings' => $model));
+                return;            
+            }
+            Yii::app()->user->setFlash('success', "Настройки сохранены");
+            if (!isset($_POST['yt0'])) {
+                $model->saveNode();
+            }
+            if (isset($_POST['yt2']) || isset($_POST['yt0'])) {
+                Yii::app()->request->redirect('/altadmin/works/');
+            } elseif (isset($_POST['yt1'])) {
+                Yii::app()->request->redirect('/altadmin/works/settings/');
+            }   
+        }
+        $this->render('settings', array('settings' => $model, 'paginator' => $modelSettings['numPage']));
+    }
+    
+    
     /*Не используется*/
     public function actionChangeOrder() {
         // ('UPDATE notes SET note_order=:note_order WHERE id=:id');
@@ -157,31 +198,4 @@ class WorksController extends Controller {
         //отправляем отчет браузеру
         echo json_encode(array('status' => 'OK'));
     }
-
-    // Uncomment the following methods and override them if needed
-    /*
-      public function filters()
-      {
-      // return the filter configuration for this controller, e.g.:
-      return array(
-      'inlineFilterName',
-      array(
-      'class'=>'path.to.FilterClass',
-      'propertyName'=>'propertyValue',
-      ),
-      );
-      }
-
-      public function actions()
-      {
-      // return external action classes, e.g.:
-      return array(
-      'action1'=>'path.to.ActionClass',
-      'action2'=>array(
-      'class'=>'path.to.AnotherActionClass',
-      'propertyName'=>'propertyValue',
-      ),
-      );
-      }
-     */
 }
