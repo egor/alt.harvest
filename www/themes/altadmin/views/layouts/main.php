@@ -128,7 +128,7 @@
 		</ul>
                 <h3>Наши работы</h3>
 		<ul class="toggle">
-			<li class="icn_categories"><a href="/altadmin/works/=">Список работ</a></li>
+			<li class="icn_categories"><a href="/altadmin/works/">Список работ</a></li>
                         <li class="icn_new_article"><a href="/altadmin/works/add">Добавить работу</a></li>
                         <li class="icn_settings"><a href="/altadmin/works/settings">Настройки</a></li>
 		</ul>

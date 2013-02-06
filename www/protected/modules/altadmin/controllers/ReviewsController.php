@@ -65,6 +65,7 @@ class ReviewsController extends Controller {
                 }
                 if (isset($_POST['Reviews']['delpic']) && $_POST['Reviews']['delpic'] == 1) {
                     $this->deletePic($id);
+                    $model->img = '';
                 }
 
                 Yii::app()->user->setFlash('success', "Отзыв отредактирован");

@@ -46,12 +46,12 @@ class Works extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			//array('visibility, menu_name, text, img, img_big, address, position, img_alt, img_title, img_big_alt, img_big_title', 'required'),
-                        array('visibility, menu_name, text, img, img_big, address, position, img_alt, img_title, img_big_alt, img_big_title', 'safe'),
-			array('visibility, position', 'numerical', 'integerOnly'=>true),
+                        array('visibility, menu_name, text, img, img_big, address, position, img_alt, img_title, img_big_alt, img_big_title, date', 'safe'),
+			array('visibility, position, date', 'numerical', 'integerOnly'=>true),
 			array('menu_name, img, img_big, address, img_alt, img_title, img_big_alt, img_big_title', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('works_id, visibility, menu_name, text, img, img_big, address, position, img_alt, img_title, img_big_alt, img_big_title', 'safe', 'on'=>'search'),
+			array('works_id, visibility, menu_name, text, img, img_big, address, position, img_alt, img_title, img_big_alt, img_big_title, date', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -84,6 +84,7 @@ class Works extends CActiveRecord
 			'img_title' => 'Title для картинки',
 			'img_big_alt' => 'Alt для большой картинки',
 			'img_big_title' => 'Title для большой картинки',
+                        'date' => 'Дата'
 		);
 	}
 
@@ -110,6 +111,7 @@ class Works extends CActiveRecord
 		$criteria->compare('img_title',$this->img_title,true);
 		$criteria->compare('img_big_alt',$this->img_big_alt,true);
 		$criteria->compare('img_big_title',$this->img_big_title,true);
+                $criteria->compare('date',$this->date,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

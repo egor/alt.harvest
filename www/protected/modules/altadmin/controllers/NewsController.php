@@ -64,6 +64,7 @@ class NewsController extends Controller {
                 //удаляем картинку, если установлена галочка
                 if (isset($_POST['Reviews']['delpic']) && $_POST['Reviews']['delpic'] == 1) {
                     $this->deletePic($id);
+                    $model->img = '';
                 }
                 
                 $u = News::model()->find('url="' . $model->url . '" AND news_id!="' . $id . '"');
