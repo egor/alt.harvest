@@ -10,10 +10,9 @@
  */
 class BannersController extends Controller
 {
-	public function actionIndex() {
-
+    public function actionIndex() {
+        $this->pageTitle = 'Баннерная система | CMS ALTADMIN';
         $model = Banners::model()->findAll(array('order' => 'position DESC'));
-
         $this->render('index', array('model' => $model));
     }
 
@@ -75,7 +74,7 @@ $model = new Banners;
     public function actionDelete($id = 0) {
         if (!empty($id)) {
             Banners::model()->deleteByPk($id);
-            Yii::app()->user->setFlash('success', "Работа удален");
+            Yii::app()->user->setFlash('success', "Баннер удален");
             Yii::app()->request->redirect('/altadmin/banners/');
         } else {
             Yii::app()->user->setFlash('err', "Упс...");

@@ -8,7 +8,7 @@
 /* @var $this NewsController */
 
 $this->breadcrumbs = array(
-    'Наши работы' => array('/altadmin/banners/'),
+    'Баннерная система' => array('/altadmin/banners/'),
     'Редактирование',
 );
 ?>
@@ -18,7 +18,7 @@ if (Yii::app()->user->hasFlash('success')):
 endif;
 ?>
 <article class="module width_full">
-    <header><h3>Редактирование работы</h3></header>
+    <header><h3>Редактирование баннера</h3></header>
     <div class="module_content">
 
         <?php

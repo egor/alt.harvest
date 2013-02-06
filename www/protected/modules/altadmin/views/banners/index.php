@@ -3,7 +3,7 @@
 <script type="text/javascript" src="/js/altadmin/sort/init.js"></script>
 <?php
 $this->breadcrumbs = array(
-    'Список отзывов',
+    'Баннерная система',
 );
 if (Yii::app()->user->hasFlash('success')){
     echo '<h4 class="alert_success">' . Yii::app()->user->getFlash('success') . '</h4>';
