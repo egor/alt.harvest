@@ -228,9 +228,70 @@ a img{
     font-size: 21px;
     font-weight: bold;
     color: #f05d0a;
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+.right-last-re-header{
+    font-size: 21px;
+    font-weight: bold;
+    color: #f05d0a;
+    margin-left: 22px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.right-menu-last-reviews li a.right-reviews-link{
+    display: inline-table;
+    color:#3b3b3b;
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+.right-menu-last-reviews li a:hover.right-reviews-link{
+    text-decoration: underline;
+}
+.right-menu-last-reviews li span{
+    font-size: 10px;
+    color:#3b3b3b;
+    float: left;
+    display: inline-table;
+    
+    margin-right: 2px;
+}
+.right-menu-last-reviews li{
+color:#636467;
+font-size:12px;
+margin-bottom: 10px;
+}
+.right-last-re a.right-reviews-link-all{
+    color: #3b3b3b;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-table;
+    text-align: right;
+    width: 200px;
+}
+.right-last-re a:hover.right-reviews-link-all{
+    text-decoration: underline;
+
+}
+.right-call-but-a{
+    display:block; /* Ссылки будут блоками. */
+width:183px; /* Ширина блока 175 пикселей по ширине нашей "двойной" картинки */
+height:51px; /* Высота блока 40 - это половина высоты нашей двойной картинки */
+background:url("/images/site/right-b.jpg"); /* делаем картинку фоном (зная, что будет видна только половина картинки) */
+border: none;
+background-color: none;
+text-decoration: none;
+margin-left: 10px;
+margin-bottom: 15px;
 }
 
+
+/* Стиль ссылки при наведённом курсоре */
+.right-call-but-a:hover {
+background-position:0 -51px; /* ВСЯ ФИШКА ЗДЕСЬ! сдвигаем фон на 40 пикселей вверх, отрицательным значением background-position, тем самым показываем вторую часть изображения где наша кнопка активна */
+cursor: pointer;
+}
 /*контент*/
 h1.main_h1{
     font-size: 20px;

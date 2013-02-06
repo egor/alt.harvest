@@ -94,7 +94,7 @@
                         <div class="right-call-phone"><table><tr><td><img class="right-call-phone-ico" src="/images/site/lrft-c-mts.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('right_phone_phone_1'); ?></span></td></table></div>
                         <div class="right-call-phone"><table><tr><td><img class="right-call-phone-ico" src="/images/site/lrft-c-kiyivs.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('right_phone_phone_2'); ?></span></td></tr></table></div>
                         <div class="right-call-phone"><table><tr><td><img class="right-call-phone-ico" src="/images/site/lrft-c-city.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('right_phone_phone_3'); ?></span></td></tr></table></div>
-                        <div class="right-call-but"></div>
+                        <div class="right-call-but"><a href="#" class="right-call-but-a">&nbsp;</a></div>
                     </div>
                     <div class="right-video">
                         <div class="right-video-header">    
@@ -107,8 +107,8 @@
                         <div class="right-last-re-header">    
                             <?php echo SelectDataFromEditFields::selectValue('right_otz_header'); ?>
                         </div>
-                        <?php $this->widget('LeftMenuLastReviewsWidget'); ?>
-                        <a href=""><?php echo SelectDataFromEditFields::selectValue('right_otz_link_text');?></a>
+                        <?php $this->widget('RightLastReviewsWidget'); ?>
+                        
                     </div>
                     <?php
                     //echo SelectDataFromEditFields::selectValue('right_otz_link_text'); 
