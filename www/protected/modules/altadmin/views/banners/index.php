@@ -2,17 +2,15 @@
 <script type="text/javascript" src="/js/altadmin/sort/jquery.json-2.2.min.js"></script>
 <script type="text/javascript" src="/js/altadmin/sort/init.js"></script>
 <?php
-/* @var $this NewsController */
-
 $this->breadcrumbs = array(
     'Список отзывов',
 );
-?>
-
-<?php
-if (Yii::app()->user->hasFlash('success')):
+if (Yii::app()->user->hasFlash('success')){
     echo '<h4 class="alert_success">' . Yii::app()->user->getFlash('success') . '</h4>';
-endif;
+}
+if (Yii::app()->user->hasFlash('err')){
+    echo '<h4 class="alert_error">' . Yii::app()->user->getFlash('err') . '</h4>';
+}
 ?>
 <p><a href="/altadmin/banners/add/">Добавить баннер</a></p>
 
