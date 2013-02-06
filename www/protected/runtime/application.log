@@ -8151,3 +8151,219 @@ Stack trace:
 REQUEST_URI=/altadmin/reviews/settings
 HTTP_REFERER=http://okna.local/altadmin/works/settings/
 ---
+2013/02/06 15:32:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icn_edit.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/icn_edit...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/icn_edit.png
+HTTP_REFERER=http://okna.local/altadmin
+---
+2013/02/06 15:32:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icn_trash.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/icn_tras...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/icn_trash.png
+HTTP_REFERER=http://okna.local/altadmin
+---
+2013/02/06 15:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/06 15:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/06 15:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/06 15:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/06 15:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "altadmin/images/icn_edit.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/altadmin/images/icn_edit.png
+HTTP_REFERER=http://okna.local/altadmin/
+---
+2013/02/06 15:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "altadmin/images/icn_trash.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/altadmin/images/icn_trash.png
+HTTP_REFERER=http://okna.local/altadmin/
+---
+2013/02/06 15:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "altadmin/images/icn_edit.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/altadmin/images/icn_edit.png
+HTTP_REFERER=http://okna.local/altadmin/
+---
+2013/02/06 15:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "altadmin/images/icn_trash.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/altadmin/images/icn_trash.png
+HTTP_REFERER=http://okna.local/altadmin/
+---
+2013/02/06 15:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/pages/...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/pages/settings
+HTTP_REFERER=http://okna.local/altadmin/
+---
+2013/02/06 15:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/settings
+---
+2013/02/06 15:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/settings
+---
+2013/02/06 15:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('settings')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/pages/...')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/altadmin/pages/settings
+---
+2013/02/06 15:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/settings
+---
+2013/02/06 15:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/settings
+---
+2013/02/06 15:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/06 15:50:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/06 15:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/70
+---
+2013/02/06 15:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/70
+---
+2013/02/06 15:56:26 [error] [exception.CException] exception 'CException' with message 'Property "Stock.img_alt" is not defined.' in Z:\home\okna.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('img_alt')
+#1 Z:\home\okna.local\www\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('img_alt')
+#2 Z:\home\okna.local\www\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Stock), 'img_alt')
+#3 Z:\home\okna.local\www\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Stock), 'img_alt', Array)
+#4 Z:\home\okna.local\www\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Stock), 'img_alt', Array)
+#5 Z:\home\okna.local\www\protected\modules\altadmin\views\stock\edit.php(85): CActiveForm->textField(Object(Stock), 'img_alt')
+#6 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require('Z:\home\okna.lo...')
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\okna.lo...', Array, true)
+#8 Z:\home\okna.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\okna.lo...', Array, true)
+#9 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('edit', Array, true)
+#10 Z:\home\okna.local\www\protected\modules\altadmin\controllers\StockController.php(79): CController->render('edit', Array)
+#11 [internal function]: StockController->actionEdit('1')
+#12 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(StockController), Array)
+#13 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StockController), Object(ReflectionMethod), Array)
+#14 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('edit')
+#18 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/stock/...')
+#19 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#21 {main}
+REQUEST_URI=/altadmin/stock/edit/1
+HTTP_REFERER=http://okna.local/altadmin/stock/
+---
+2013/02/06 16:04:21 [warning] [application] Failed to set unsafe attribute "delpic" of "Stock".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\StockController.php (42)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/06 16:04:51 [warning] [application] Failed to set unsafe attribute "delpic" of "Stock".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\StockController.php (42)
+in Z:\home\okna.local\www\index.php (12)

@@ -138,11 +138,24 @@
                         <li class="icn_new_article"><a href="/altadmin/videoTips/add">Добавить совет</a></li>
                         <li class="icn_settings"><a href="/altadmin/videoTips/settings">Настройки</a></li>
 		</ul>
+                <h3>Акции</h3>
+		<ul class="toggle">
+			<li class="icn_categories"><a href="/altadmin/stock/">Список акций</a></li>
+                        <li class="icn_new_article"><a href="/altadmin/stock/add">Добавить акцию</a></li>
+                        <li class="icn_settings"><a href="/altadmin/stock/settings">Настройки</a></li>
+		</ul>
+                
                 <h3>Контент</h3>
 		<ul class="toggle">
 			<li class="icn_categories"><a href="/altadmin/pages">Дерево</a></li>
                         <li class="icn_settings"><a href="/altadmin/pages/settings">Настройки</a></li>
                         <li class="icn_settings"><a href="/altadmin/editFields">Редактируемые поля</a></li>
+		</ul>
+                
+                <h3>Баннерная система</h3>
+		<ul class="toggle">
+			<li class="icn_categories"><a href="/altadmin/stock/">Список баннеров</a></li>
+                        <li class="icn_new_article"><a href="/altadmin/stock/add">Добавить баннер</a></li>
 		</ul>
 		<!--<h3>Users</h3>
 		<ul class="toggle">
