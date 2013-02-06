@@ -42,7 +42,7 @@ $this->widget('CLinkPager', array(
 	paginator_example = new Paginator(
 		"paginator_page", // id контейнера, куда ляжет пагинатор
 		<?php echo $countPage; ?>, // общее число страниц
-		5, // число страниц, видимых одновременно
+		<?php echo $settingValue; ?>, // число страниц, видимых одновременно
 		<?php echo (isset($_GET['page'])? $_GET['page'] : 1); ?>, // номер текущей страницы
 		"<?php echo '/'.$newsData->url.'/'; ?>"//"http://www.yourwebsite.com/pages/" // url страниц
 	);

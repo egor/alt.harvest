@@ -31,7 +31,7 @@ class NewsController extends Controller {
         Yii::app()->clientScript->registerMetaTag('meta_keywords',$newsData->meta_keywords);
         Yii::app()->clientScript->registerMetaTag('meta_keywords',$newsData->meta_description);
         $model = News::model()->findAll('visibility=:visibility ORDER BY `date` DESC LIMIT '.$start.', '.$setting->value, array(':visibility' => 1));
-        $this->render('index', array('model' => $model, 'newsData' => $newsData, 'paginator' => $paginator, 'countPage'=>$countPage));
+        $this->render('index', array('model' => $model, 'newsData' => $newsData, 'paginator' => $paginator, 'countPage'=>$countPage, 'settingValue'=>$setting->value));
     }
 
     /**

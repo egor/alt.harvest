@@ -96,6 +96,6 @@ return array(
     'params' => array(
         // this is used in contact page
         'adminEmail' => 'webmaster@example.com',
-        'modules' => array('news' => '42', 'reviews' => '69', 'main' => '33', 'works' => '68', 'mainPage'=>40, 'zayavka'=>97, 'sitemap'=>73,),
+        'modules' => array('news' => '42', 'reviews' => '69', 'main' => '33', 'works' => '68', 'mainPage'=>40, 'zayavka'=>97, 'sitemap'=>73, 'videoTips'=>104),
     ),
 );

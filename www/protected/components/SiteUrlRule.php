@@ -50,6 +50,16 @@ class SiteUrlRule extends CBaseUrlRule {
                             return false;
                         }
                     }
+                    //отзывы
+                    if ($model->module == 'reviews') {
+                        if (!isset($url[1])) {
+                            return 'reviews/';
+                        } else if ($url[1]==='page'){                            
+                            return 'reviews/index/page/'.$url[2];
+                        } else {
+                            return false;
+                        }
+                    }
                 }
             } else {
                 $model = Pages::model()->find('url="' . end($url) . '"');

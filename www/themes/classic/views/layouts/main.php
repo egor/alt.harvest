@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         
+        <link rel="icon" type="image/vnd.microsoft.icon" href="/ico/favicon.ico">
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="en" />
@@ -174,5 +175,17 @@
                     
                 </div>
                 <!-- end footer -->
+                
+    <script language="JavaScript">
+        left = $('.left-menu').height();
+        center = $('.site-content').height();
+        right=$('.right-col').height();
+        if (left>center && left>right) {
+            $('.site-content').height(left);
+        } else if (right>center && right>left) {
+            $('.site-content').height(right);
+        }
+        //alert (left +' ' + center + ' ' + right);
+    </script>
     </body>
 </html>
