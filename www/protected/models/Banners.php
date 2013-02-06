@@ -42,7 +42,8 @@ class Banners extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('img, img_alt, img_title, position, name, visibility, link, new_window', 'required'),
+			//array('img, img_alt, img_title, position, name, visibility, link, new_window', 'required'),
+                        array('img, img_alt, img_title, position, name, visibility, link, new_window', 'safe'),
 			array('position, visibility, new_window', 'numerical', 'integerOnly'=>true),
 			array('img, img_alt, img_title, name, link', 'length', 'max'=>255),
 			// The following rule is used by search().
@@ -69,14 +70,14 @@ class Banners extends CActiveRecord
 	{
 		return array(
 			'banners_id' => 'Banners',
-			'img' => 'Img',
+			'img' => 'Картинка',
 			'img_alt' => 'Img Alt',
 			'img_title' => 'Img Title',
 			'position' => 'Position',
-			'name' => 'Name',
-			'visibility' => 'Visibility',
-			'link' => 'Link',
-			'new_window' => 'New Window',
+			'name' => 'Название',
+			'visibility' => 'Выводить',
+			'link' => 'Ссылка',
+			'new_window' => 'Открывать в новом окне',
 		);
 	}
 

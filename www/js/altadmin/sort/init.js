@@ -31,7 +31,7 @@ $(function() {
 	убирается когда пользователь удаляет последнюю запись в списке.
 	*/
 	function createChangeOrderForm() {
-		var form = '<form id="changeOrder" method="post" action="/altadmin/reviews/changeOrder">'
+		var form = '<form id="changeOrder" method="post" action="/altadmin/banners/changeOrder">'
 			+ '<p><input type="submit" value="Сохранить сортировку" /></p>'
 			+ '</form>';
 		//назначаем обработчик событию отправки формы
@@ -92,7 +92,7 @@ $(function() {
 				order.push({'id': $(value).attr('id'), 'order': index});
 			});
 			//отправка запроса (метод toJSON добавлен плагином json-2.2)
-			$.post('/altadmin/reviews/changeOrder', {'neworder':$.toJSON(order)}, function(data) {
+			$.post('/altadmin/banners/changeOrder', {'neworder':$.toJSON(order)}, function(data) {
 				var response = eval('('+data+')');
 				if (response.status == 'OK') {
 					$('ul#sortable').effect("highlight", {}, 3000);

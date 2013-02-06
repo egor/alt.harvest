@@ -154,8 +154,8 @@
                 
                 <h3>Баннерная система</h3>
 		<ul class="toggle">
-			<li class="icn_categories"><a href="/altadmin/stock/">Список баннеров</a></li>
-                        <li class="icn_new_article"><a href="/altadmin/stock/add">Добавить баннер</a></li>
+			<li class="icn_categories"><a href="/altadmin/banners/">Список баннеров</a></li>
+                        <li class="icn_new_article"><a href="/altadmin/banners/add">Добавить баннер</a></li>
 		</ul>
 		<!--<h3>Users</h3>
 		<ul class="toggle">
