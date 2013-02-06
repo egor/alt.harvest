@@ -2,16 +2,12 @@
 $this->breadcrumbs = array(
     'Видео советы',
 );
-?>
-
-<?php
 if (Yii::app()->user->hasFlash('success')){
     echo '<h4 class="alert_success">' . Yii::app()->user->getFlash('success') . '</h4>';
 }
 if (Yii::app()->user->hasFlash('err')){
     echo '<h4 class="alert_error">' . Yii::app()->user->getFlash('err') . '</h4>';
 }
-
 ?>
 <p><a href="/altadmin/videoTips/add/">Добавить совет</a></p>
 
