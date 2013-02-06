@@ -110,6 +110,10 @@ endif; ?>
                             
                             <?php echo $form->textField($news, 'img_title'); ?>
                             <?php echo $form->error($news, 'img_title'); ?>
+                            <p><br/></p><p><br/><br/></p>
+                            <label for="News_delpic">Удалить картинку</label>
+                            <input type="hidden" name="News[delpic]" value="0" id="ytNews_delpic">
+                            <input type="checkbox" value="1" id="News_delpic" name="News[delpic]">
                             </fieldset>
                                 
                                 <fieldset>

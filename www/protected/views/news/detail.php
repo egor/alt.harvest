@@ -2,7 +2,7 @@
 /* @var $this PagesController */
 
 $this->breadcrumbs=array(
-    $newsData->menu_name=>array($newsData->url),
+    $newsData->menu_name=>array('/'.$newsData->url),
     $model->menu_name
 );
 ?>

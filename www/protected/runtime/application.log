@@ -7069,3 +7069,76 @@ Stack trace:
 #29 {main}
 REQUEST_URI=/
 ---
+2013/02/06 11:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icn_trash.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/icn_tras...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/icn_trash.png
+HTTP_REFERER=http://okna.local/altadmin
+---
+2013/02/06 11:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icn_edit.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/icn_edit...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/icn_edit.png
+HTTP_REFERER=http://okna.local/altadmin
+---
+2013/02/06 11:50:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/news/8_123.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/8_1...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/8_123.jpg
+HTTP_REFERER=http://okna.local/altadmin/news/edit/8
+---
+2013/02/06 11:50:59 [warning] [application] Failed to set unsafe attribute "delpic" of "News".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\NewsController.php (50)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/06 11:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/news/8_123.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/8_1...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/8_123.jpg
+HTTP_REFERER=http://okna.local/altadmin/news/edit/8
+---
+2013/02/06 11:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/news/8_123.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/8_1...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/8_123.jpg
+HTTP_REFERER=http://okna.local/altadmin/news/edit/8
+---
+2013/02/06 11:51:08 [warning] [application] Failed to set unsafe attribute "delpic" of "News".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\NewsController.php (50)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/06 11:51:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "novosti".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('novosti')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('novosti')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/novosti')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/novosti
+HTTP_REFERER=http://okna.local/novosti/novaya-fur
+---
+2013/02/06 11:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "novosti".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('novosti')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('novosti')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/novosti')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/novosti
+HTTP_REFERER=http://okna.local/novosti/novaya-fur
+---

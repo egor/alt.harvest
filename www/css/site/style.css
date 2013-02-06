@@ -830,3 +830,36 @@ html body div.content div.site-content div#content div.news_list div.news-item h
     color: #636467;
     text-decoration: underline;
 }
+
+.news-list-img {
+    float: left;
+    margin-right: 20px;
+}
+.news-item a.more {
+   margin-right: 10px;
+    float: right;
+}
+.news-item a:hover.more {
+    text-decoration: underline!important;
+}
+.footer-list-line{
+    display: inline-table;
+    width: 100%;
+    height: 1px;
+    background-color: #dededf;    
+    margin-top: 10px;
+}
+.footer-list-line2{
+    display: inline-table;
+    width: 100%;
+    height: 1px;
+    background-color: #9d9e9f;
+    margin-bottom: 20px;
+}
+.news_list{
+    width: 530px;
+    overflow: hidden;
+}
+h1{
+    margin-bottom: 20px;
+}

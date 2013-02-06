@@ -1,12 +1,20 @@
 <?php
-
+/**
+ * NewsController
+ * 
+ * Вывод списка и подробного описания новостей
+ * 
+ * @author Egor Rihnov <egor.developer@gmail.com>
+ * @version 1.0
+ * @package frontEnd
+ * 
+ */
 class NewsController extends Controller {
 
     /**
      * Главная страница новостей
      */
     public function actionIndex() {
-        //echo $_GET['page']; die;
         $newsData = Pages::model()->findByPk(Yii::app()->params['modules']['news']);
         $newsCount = News::model()->count('visibility=:visibility', array(':visibility' => 1));        
         $paginator=new CPagination($newsCount);        

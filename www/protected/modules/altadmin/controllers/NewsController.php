@@ -60,6 +60,12 @@ class NewsController extends Controller {
                 } else {
                     $model->img = $img;
                 }
+                
+                //удаляем картинку, если установлена галочка
+                if (isset($_POST['Reviews']['delpic']) && $_POST['Reviews']['delpic'] == 1) {
+                    $this->deletePic($id);
+                }
+                
                 $u = News::model()->find('url="' . $model->url . '" AND news_id!="' . $id . '"');
                 if (!empty($u->news_id)) {
                     $model->date = date('d.m.Y', $model->date);
@@ -94,10 +100,7 @@ class NewsController extends Controller {
      */
     public function actionDelete($id = 0) {
         if (!empty($id)) {
-            $model = News::model()->findByPk($id);
-            if (!empty($model->img) && file_exists(Yii::getPathOfAlias('webroot') . '/images/news/' . $model->img)) {
-                unlink(Yii::getPathOfAlias('webroot') . '/images/news/' . $model->img);
-            }
+            News::model()->deleteByPk($id);
             News::model()->deleteByPk($id);
             Yii::app()->user->setFlash('success', "Новость удалена");
             Yii::app()->request->redirect('/altadmin/news/');
@@ -151,7 +154,21 @@ if (isset($_POST['Pages']) || isset($_POST['Settings'])) {
 
         $this->render('settings', array('settings' => $model, 'paginator' => $modelSettings['numPage']));
     }
-
+    
+    /**
+     * Удаляет картинку
+     * 
+     * @param int $id - id записи у которой нужно удалить картинку
+     * @return boolean
+     */
+    public function deletePic($id) {
+        $model = News::model()->findByPk($id);
+        if (!empty($model->img) && file_exists(Yii::getPathOfAlias('webroot') . '/images/news/' . $model->img)) {
+            unlink(Yii::getPathOfAlias('webroot') . '/images/news/' . $model->img);
+        }
+        return true;
+    }
+    
     // Uncomment the following methods and override them if needed
     /*
       public function filters()
