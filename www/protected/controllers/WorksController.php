@@ -14,7 +14,7 @@ class WorksController extends Controller {
      */
     public function actionIndex() {
         $worksData = Pages::model()->findByPk(Yii::app()->params['modules']['works']);
-        $worksCount = Reviews::model()->count('visibility=:visibility', array(':visibility' => 1));
+        $worksCount = Works::model()->count('visibility=:visibility', array(':visibility' => 1));
         $paginator = new CPagination($worksCount);
         $setting = Settings::model()->findByPk(6);
         $paginator->pageSize = $setting->value;
