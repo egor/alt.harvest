@@ -23,7 +23,7 @@ foreach ($model as $value) {
     echo '<div class="works-item-short-text">' . 
             (!empty($value->img) ? '<a href="/images/works/big/' . $value->img_big . '"><img class="works-list-img" src="/images/works/' . $value->img . '" alt="' . $value->img_alt . '" title="' . $value->img_title . '" /></a>' : '') .
             $value->text .
-            '</div>';
+            '</div><br clear="all">';
     echo '<div class="works-user-data">'.$value->address.'</div></div>';
     if ($z < $count) {
         echo '<div class="footer-list-line"></div>

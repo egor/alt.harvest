@@ -22,9 +22,9 @@ foreach ($model as $value) {
     echo '<br clear="all"/>
         <div class="reviews-item-short-text">' . (!empty($value->img) ? '<img class="reviews-list-img" src="/images/reviews/' . $value->img . '" alt="' . $value->img_alt . '" title="' . $value->img_title . '" />' : '') . 
             (!empty($value->link_to_video) ? '<div class="reviews_video">'.$value->link_to_video.'</div>' : '') .
-            $value->short_text . '</div>';
+            $value->text . '</div><br clear="all" />';
     echo '
-        <div class="reviews-user-data"><table><tr><td>Отзывы:</td><td>'.$value->user_name.'</td></tr>
+        <div class="reviews-user-data"><table cellspacing="0"><tr><td class="reviews_t"><i>Отзывы:</i></td><td>'.$value->user_name.'</td></tr>
             <tr><td></td><td>'.$value->user_address.'</td></tr></table></div>
         </div>';
     if ($z < $count) {

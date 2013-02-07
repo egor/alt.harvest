@@ -25,6 +25,14 @@ class SiteUrlRule extends CBaseUrlRule {
         return false;  // не применяем данное правило
     }
 
+    /**
+     * @todo
+     * @param type $manager
+     * @param type $request
+     * @param type $pathInfo
+     * @param type $rawPathInfo
+     * @return string|boolean
+     */
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo) {
         if (empty($pathInfo)) {
             return 'pages/main';
@@ -56,6 +64,26 @@ class SiteUrlRule extends CBaseUrlRule {
                             return 'reviews/';
                         } else if ($url[1]==='page'){                            
                             return 'reviews/index/page/'.$url[2];
+                        } else {
+                            return false;
+                        }
+                    }
+                    //наши работы
+                    if ($model->module == 'works') {
+                        if (!isset($url[1])) {
+                            return 'works/';
+                        } else if ($url[1]==='page'){                            
+                            return 'works/index/page/'.$url[2];
+                        } else {
+                            return false;
+                        }
+                    }
+                    //видео советы
+                    if ($model->module == 'videoTips') {
+                        if (!isset($url[1])) {
+                            return 'videoTips/';
+                        } else if ($url[1]==='page'){                            
+                            return 'videoTips/index/page/'.$url[2];
                         } else {
                             return false;
                         }

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * VideoTipsController
  * Модуль "Видео советы"
@@ -32,5 +31,4 @@ class VideoTipsController extends Controller {
         $model = VideoTips::model()->findAll('visibility=:visibility ORDER BY `date` DESC LIMIT ' . $start . ', ' . $setting->value, array(':visibility' => 1));
         $this->render('index', array('model' => $model, 'videoTipsData' => $videoTipsData, 'paginator' => $paginator, 'countPage' => $countPage, 'settingValue' => $setting->value));
     }
-
 }

@@ -23,7 +23,7 @@ html
 	margin: 0;
 	padding: 0;
 	
-	font: normal 10pt Arial,Helvetica,sans-serif;
+	font: normal 12px Arial,Helvetica,sans-serif;
 
 }
 a img{
@@ -145,6 +145,9 @@ a img{
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+}
+.portlet-content ul#headerMenuList li a:hover{
+    text-decoration: underline;
 }
 .header-menu-hr{
     background: url(/images/site/header-b-menu.jpg) no-repeat;
@@ -502,6 +505,7 @@ cursor: pointer;
 
 #content{
     margin-left: 16px;
+    width: 532px;
 }
 .portlet-content ul#leftMenuList li span{
     font: normal 15px Arial,Helvetica,sans-serif;
@@ -862,4 +866,68 @@ html body div.content div.site-content div#content div.news_list div.news-item h
 }
 h1{
     margin-bottom: 20px;
+}
+
+/*отзывы*/
+.reviews-item h2{
+    color:#3b3b3b;
+    font-size: 15px;
+    font-weight: bold;
+}
+.reviews-item-date{
+    float: left;
+    font-size: 15px;
+    color:#636467;
+}
+.reviews_video{
+    float: left;
+    margin-right: 20px;
+}
+.reviews-user-data table tbody tr td.reviews_t{
+    display: inline-table;
+    width: 60px;
+}
+.reviews-item{
+    margin-bottom: 10px;
+}
+.reviews-user-data{
+    margin-top: 5px;
+}
+.works-item h2{
+    color:#3b3b3b;
+    font-size: 15px;
+    font-weight: bold;
+}
+.works-item-date{
+    float: left;
+    font-size: 15px;
+    color:#636467;    
+}
+.works-list-img{
+    float: left;
+    margin-right: 20px;
+}
+.works-user-data{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.video-item h2{
+    color:#3b3b3b;
+    font-size: 15px;
+    font-weight: bold;
+}
+.video-item-date{
+    float: left;
+    font-size: 15px;
+    color:#636467; 
+}
+.video-link{
+    float: left;
+    margin-right: 20px;
+}
+.video-user-data{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }

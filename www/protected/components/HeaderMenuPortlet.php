@@ -23,11 +23,6 @@ class HeaderMenuPortlet extends CPortlet
         $counts = count($models);
         $count = 0;
         foreach($models as $model) {
-//            $pages=Pages::model()->findByPk($model->pages_id);
-//            $nextPages=$pages->nextSibling;
-//            foreach ($nextPages as $key) {
-//                echo $key->pages_id;
-//            }
             $count++;
             $items[] = array('label' => $model->menu_name, 
                 'url' =>  '/' . ($model->url == 'main'? '':$model->url . '/'),                 

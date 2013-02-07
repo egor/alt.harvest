@@ -1,7 +1,17 @@
 <?php
-
+/**
+ * ReviewsController
+ * Модуль "Отзывы"
+ * 
+ * @author Egor Rihnov <egor.developer@gmail.com>
+ * @version 1.0
+ * @package frontEnd
+ */
 class ReviewsController extends Controller {
 
+    /**
+     * Список наших работ
+     */
     public function actionIndex() {
         $reviewsData = Pages::model()->findByPk(Yii::app()->params['modules']['reviews']);
         $reviewsCount = Reviews::model()->count('visibility=:visibility', array(':visibility' => 1));

@@ -21,9 +21,9 @@ foreach ($model as $value) {
             $value->menu_name . 
             '</h2><br clear="all"/>';
     echo '<div class="video-item-short-text">' . 
-            (!empty($value->img) ? '<div class="video-link">'.$value->link_to_video.'</div>' : '') .
+            (!empty($value->link_to_video) ? '<div class="video-link">'.$value->link_to_video.'</div>' : '') .
             $value->short_text .
-            '</div>';
+            '</div><br clear="all">';
     echo '<div class="video-user-data">'.$value->line.'</div></div>';
     if ($z < $count) {
         echo '<div class="footer-list-line"></div>

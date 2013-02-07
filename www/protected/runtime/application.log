@@ -9183,3 +9183,1012 @@ Stack trace:
 REQUEST_URI=/js/altadmin/json2/json2.js
 HTTP_REFERER=http://okna.local/altadmin/pages/edit/104
 ---
+2013/02/07 13:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/07 13:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/07 13:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/105
+---
+2013/02/07 13:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/105
+---
+2013/02/07 13:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:37:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/106
+---
+2013/02/07 13:37:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/106
+---
+2013/02/07 13:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/107
+---
+2013/02/07 13:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/107
+---
+2013/02/07 13:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/108
+---
+2013/02/07 13:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/108
+---
+2013/02/07 13:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:38:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/07 13:38:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/07 13:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/110
+---
+2013/02/07 13:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/110
+---
+2013/02/07 13:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:39:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:39:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/111
+---
+2013/02/07 13:39:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/111
+---
+2013/02/07 13:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/36
+---
+2013/02/07 13:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/36
+---
+2013/02/07 13:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:43:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "kontaktyi1".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('kontaktyi1')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/kontaktyi1/
+HTTP_REFERER=http://okna.local/video-sovetyi
+---
+2013/02/07 13:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/36
+---
+2013/02/07 13:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/36
+---
+2013/02/07 13:44:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 13:44:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/07 16:52:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:52:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 16:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 16:59:16 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (53)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 16:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 16:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 16:59:28 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (53)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 16:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:59:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 16:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 16:59:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 17:00:01 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (53)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 17:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 17:02:02 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (53)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 17:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/altadmin/reviews/edit/12
+---
+2013/02/07 17:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:02:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+---
+2013/02/07 17:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+---
+2013/02/07 17:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:06:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:06:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:06:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:06:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:09:48 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (53)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:10:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:11:51 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (53)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:11:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:11:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:12:33 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (53)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/07 17:14:44 [warning] [application] Failed to set unsafe attribute "delpicS" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:14:44 [warning] [application] Failed to set unsafe attribute "delpicB" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:15:26 [warning] [application] Failed to set unsafe attribute "delpicS" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:15:26 [warning] [application] Failed to set unsafe attribute "delpicB" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:16:40 [warning] [application] Failed to set unsafe attribute "delpicS" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:16:40 [warning] [application] Failed to set unsafe attribute "delpicB" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:17:01 [warning] [application] Failed to set unsafe attribute "delpicS" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:17:01 [warning] [application] Failed to set unsafe attribute "delpicB" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:19:32 [warning] [application] Failed to set unsafe attribute "delpicS" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:19:32 [warning] [application] Failed to set unsafe attribute "delpicB" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:19:55 [warning] [application] Failed to set unsafe attribute "delpicS" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:19:55 [warning] [application] Failed to set unsafe attribute "delpicB" of "Works".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\WorksController.php (49)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/07 17:22:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/page".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/p...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/page/2
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---

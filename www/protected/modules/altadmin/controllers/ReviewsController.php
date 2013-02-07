@@ -105,14 +105,14 @@ class ReviewsController extends Controller {
      * 
      * @param int $id - id записи у которой нужно удалить картинку
      * @return boolean
-     */
+     
     public function deletePic($id) {
         $model = News::model()->findByPk($id);
         if (!empty($model->img) && file_exists(Yii::getPathOfAlias('webroot') . '/images/news/' . $model->img)) {
             unlink(Yii::getPathOfAlias('webroot') . '/images/news/' . $model->img);
         }
         return true;
-    }
+    }*/
     /**
      * Удаляет картинку
      * 
