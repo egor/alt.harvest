@@ -53,12 +53,22 @@ class Pages extends CActiveRecord {
         // will receive user inputs.
         return array(
             //array('root, lft, rgt, level, url, visibility, in_menu, menu_name, h1, meta_title, meta_keywords, meta_description, short_text, text, img, img_alt, img_title, add_1, add_2', 'required'),
-            array('root, lft, rgt, level, url, visibility, in_menu, menu_name, h1, meta_title, meta_keywords, meta_description, short_text, text, img, img_alt, img_title, add_1, add_2, in_last, date', 'safe'),
+            array('root, lft, rgt, level, url, 
+                visibility, in_menu, menu_name, h1, meta_title, 
+                meta_keywords, meta_description, short_text, text, img, 
+                img_alt, img_title, add_1, add_2, in_last, 
+                date, print_top_form, img_top_form, end_date_top_form, end_time_top_form,
+                print_footer_form, text_footer_form, color_footer_form, line_footer_form', 'safe'),
             array('root, lft, rgt, level, visibility, in_menu, in_last, date', 'numerical', 'integerOnly' => true),
-            array('url, menu_name, h1, img, img_alt, img_title', 'length', 'max' => 255),
+            array('url, menu_name, h1, img, img_alt, img_title, img_top_form, color_footer_form, line_footer_form', 'length', 'max' => 255),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
-            array('pages_id, root, lft, rgt, level, url, visibility, in_menu, menu_name, h1, meta_title, meta_keywords, meta_description, short_text, text, img, img_alt, img_title, add_1, add_2, in_last, date', 'safe', 'on' => 'search'),
+            array('pages_id, root, lft, rgt, level, 
+                url, visibility, in_menu, menu_name, h1, 
+                meta_title, meta_keywords, meta_description, short_text, text, 
+                img, img_alt, img_title, add_1, add_2, 
+                in_last, date, print_top_form, img_top_form, end_date_top_form, 
+                end_time_top_form, print_footer_form, text_footer_form, color_footer_form, line_footer_form', 'safe', 'on' => 'search'),
         );
     }
 
@@ -99,6 +109,14 @@ class Pages extends CActiveRecord {
             'add_2' => 'Add 2',
             'in_last' => 'Выводить в последних статьях',
             'date' => 'Дата',
+            'print_top_form'=>'Выводить форму вверху страницы',
+            'img_top_form'=>'Картинка - фон формы',
+            'end_date_top_form'=>'Дата окончания',
+            'end_time_top_form'=>'Время окончания (00:00)',
+            'print_footer_form'=>'Выводить форму внизу страницы',
+            'text_footer_form'=>'Текст формы',
+            'color_footer_form'=>'Цвет фона',
+            'line_footer_form'=>'Текст под формой'            
         );
     }
 
@@ -134,6 +152,15 @@ class Pages extends CActiveRecord {
         $criteria->compare('add_2', $this->add_2, true);
         $criteria->compare('in_last', $this->in_last, true);
         $criteria->compare('date', $this->date, true);
+        $criteria->compare('print_top_form', $this->print_top_form, true);
+        $criteria->compare('img_top_form', $this->date, img_top_form);
+        $criteria->compare('end_date_top_form', $this->end_date_top_form, true);
+        $criteria->compare('end_time_top_form', $this->end_time_top_form, true);
+        $criteria->compare('print_footer_form', $this->print_footer_form, true);
+        $criteria->compare('text_footer_form', $this->text_footer_form, true);
+        $criteria->compare('color_footer_form', $this->color_footer_form, true);
+        $criteria->compare('line_footer_form', $this->line_footer_form, true);
+ 
 
         return new CActiveDataProvider($this, array(
                     'criteria' => $criteria,

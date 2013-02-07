@@ -33,10 +33,13 @@ class PagesController extends Controller {
         $model = Pages::model()->findByPk($id);
         $model->scenario = 'edit';
         $img = $model->img;
+        $img_top_form = $model->img_top_form;
         //echo     Yii::getPathOfAlias('webroot') ;
         if (isset($_POST['Pages'])) {
             $model->attributes = $_POST['Pages'];
             $model->date = DateOperations::dateToUnixTime($model->date);
+            $model->end_date_top_form = DateOperations::dateToUnixTime($model->end_date_top_form);
+            $model->end_time_top_form = DateOperations::timeToUnixTime($model->end_time_top_form);            
             if ($model->validate()) {
                 $file = CUploadedFile::getInstance($model, 'img');
                 if (!empty($file->name)) {
@@ -47,6 +50,16 @@ class PagesController extends Controller {
                     $file->saveAs(Yii::getPathOfAlias('webroot') . '/images/pages/' . $model->img);
                 } else {
                     $model->img = $img;
+                }
+                $file = CUploadedFile::getInstance($model, 'img_top_form');
+                if (!empty($file->name)) {
+                    if (!empty($img) && file_exists(Yii::getPathOfAlias('webroot') . '/images/pages/form/top/' . $img_top_form)) {
+                        unlink(Yii::getPathOfAlias('webroot') . '/images/pages/form/top/' . $img_top_form);
+                    }
+                    $model->img_top_form = $id . '_' . $file->name;
+                    $file->saveAs(Yii::getPathOfAlias('webroot') . '/images/pages/form/top/' . $model->img_top_form);
+                } else {
+                    $model->img_top_form = $img_top_form;
                 }
                 $u = Pages::model()->find('url="' . $model->url . '" AND pages_id!="' . $id . '"');
 
@@ -75,6 +88,8 @@ class PagesController extends Controller {
                 return;
             }
         }
+        $model->end_time_top_form = date('h:i', $model->end_time_top_form);
+        $model->end_date_top_form = date('d.m.Y', $model->end_date_top_form);
         $model->date = date('d.m.Y', $model->date);
         //$this->render('edit');
         //$this->render('_form',array('model'=>$model));

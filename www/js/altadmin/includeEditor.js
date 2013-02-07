@@ -3,7 +3,7 @@ tinyMCE.init({
 		//mode : "textareas",
 		//mode : "specific_textareas",
                 mode : "exact",
-                elements: "editor-text, editor-desc",
+                elements: "editor-text, editor-desc, editor2, editor3, editor4, editor5",
                 //editor_deselector : "no-editor",
 		theme : "advanced",
 		language : "ru",
