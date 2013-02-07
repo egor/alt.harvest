@@ -8385,3 +8385,123 @@ Stack trace:
 REQUEST_URI=/altadmin/banners/edit/1
 HTTP_REFERER=http://okna.local/altadmin/banners/
 ---
+2013/02/07 10:32:37 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in Z:\home\okna.local\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'visibility=1')
+#1 Z:\home\okna.local\www\framework\db\schema\CDbCommandBuilder.php(483): CDbCriteria->__construct(Array)
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1415): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\okna.local\www\protected\components\RightBannersWidget.php(16): CActiveRecord->findAll(Array)
+#4 Z:\home\okna.local\www\framework\web\CBaseController.php(147): RightBannersWidget->init()
+#5 Z:\home\okna.local\www\framework\web\CBaseController.php(172): CBaseController->createWidget('RightBannersWid...', Array)
+#6 Z:\home\okna.local\www\themes\classic\views\layouts\main.php(87): CBaseController->widget('RightBannersWid...')
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require('Z:\home\okna.lo...')
+#8 Z:\home\okna.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\okna.lo...', Array, true)
+#9 Z:\home\okna.local\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\okna.lo...', Array, true)
+#10 Z:\home\okna.local\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#11 Z:\home\okna.local\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#12 Z:\home\okna.local\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#13 Z:\home\okna.local\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#14 Z:\home\okna.local\www\themes\classic\views\layouts\column1.php(6): CBaseController->endContent()
+#15 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require('Z:\home\okna.lo...')
+#16 Z:\home\okna.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\okna.lo...', Array, true)
+#17 Z:\home\okna.local\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\okna.lo...', Array, true)
+#18 Z:\home\okna.local\www\protected\controllers\PagesController.php(17): CController->render('main', Array)
+#19 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(49): PagesController->actionMain()
+#20 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#22 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('main')
+#24 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/main')
+#25 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#27 {main}
+REQUEST_URI=/
+---
+2013/02/07 10:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 10:35:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/1_b2.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/1_b2.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:35:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/2_b1.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/2_b1.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/1_b2.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/1_b2.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/2_b1.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/2_b1.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/1_b2.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/1_b2.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/2_b1.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/2_b1.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/2_b1.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/2_b1.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/1_b2.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/1_b2.png
+HTTP_REFERER=http://okna.local/
+---
+2013/02/07 10:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bannres/1_b2.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bannres/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bannres/1_b2.png
+---

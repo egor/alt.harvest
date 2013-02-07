@@ -84,7 +84,8 @@
                 <div class="site-content"><?php echo $content; ?></div>
                 <div class="right-col">
                     <div class="right-pad"></div>
-                    <?php echo SelectDataFromEditFields::selectValue('right_banners'); ?>
+                    <?php $this->widget('RightBannersWidget'); ?>
+                    <?php //echo SelectDataFromEditFields::selectValue('right_banners'); ?>
                     <div class="consultant">
                         <div class="consultant-header"><?php echo SelectDataFromEditFields::selectValue('right_consul_header'); ?></div>
                         <div class="consultant-foto"><?php echo SelectDataFromEditFields::selectValue('right_foto_consul'); ?></div>
