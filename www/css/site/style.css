@@ -1151,3 +1151,31 @@ cursor: pointer;
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.pages-list h2 a{
+    color:#3b3b3b;
+    font-size: 15px;
+    text-decoration: none;
+}
+.pages-list h2 a:hover{
+    text-decoration: underline;
+}
+.list-img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+.pages-list a.more {
+    color: #636467;
+    font-size: 13px;
+    text-decoration: none;
+}
+.pages-list a:hover.more {
+    text-decoration: underline;
+}
+.more-i{
+    text-align: right;
+    width: 528px;
+    display: inline-tablel;
+    margin-top: 5px;
+
+}

@@ -71,11 +71,14 @@ if (!empty($model->img_top_form)) {
     </script>
 <?php
 }
-
+echo '<div class="pages-list">';
 foreach ($items as $item) {
-    $url =GetUrlToPage::getUrlToPageById($item->pages_id);
-    echo '<h2><a href="'.$url.'">'.$item->menu_name.'</a></h2>';
+    $url = GetUrlToPage::getUrlToPageById($item->pages_id);
+    echo '<h2><a href="'.$url.'">'.$item->menu_name.'</a></h2><br clear="all" />';
     echo '<div class="item-short-text">'.(!empty($item->img)?'<a href="'.$url.'"><img class="list-img" src="/images/pages/'.$item->img.'" alt="'.$item->img_alt.'" title="'.$item->img_title.'" /></a>':'').$item->short_text.'</div>';
-    echo '<br clear="all"/><a class="more" href="'.$url.'">'.SelectDataFromEditFields::selectValue('news_list_text').'</a><br />';
+    echo '<div class="more-i"><a class="more" href="'.$url.'">'.SelectDataFromEditFields::selectValue('pages_list_text').'</a></div>';
+    echo '<div class="footer-list-line"></div>
+            <div class="footer-list-line2"></div>';
 }
+echo '</div>';
 ?>
