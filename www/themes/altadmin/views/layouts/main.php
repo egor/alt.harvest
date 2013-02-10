@@ -116,9 +116,9 @@
 			<li class="icn_categories"><a href="/altadmin/news">Список новостей</a></li>
                         <li class="icn_new_article"><a href="/altadmin/news/add">Добавить новость</a></li>
                         <li class="icn_settings"><a href="/altadmin/news/settings">Настройки</a></li>
-			<li class="icn_edit_article"><a href="#">Edit Articles</a></li>
+			<!--<li class="icn_edit_article"><a href="#">Edit Articles</a></li>
 			<li class="icn_categories"><a href="#">Categories</a></li>
-			<li class="icn_tags"><a href="#">Tags</a></li>
+			<li class="icn_tags"><a href="#">Tags</a></li>-->
 		</ul>
                 <h3>Отзывы клиентов</h3>
 		<ul class="toggle">
@@ -173,8 +173,7 @@
 		</ul>-->
 		<h3>Admin</h3>
 		<ul class="toggle">
-			<li class="icn_settings"><a href="#">Options</a></li>
-			<li class="icn_security"><a href="#">Security</a></li>
+			<li class="icn_settings"><a href="/altadmin/default/settings/">Настройки</a></li>
 			<li class="icn_jump_back"><a href="/altadmin/default/logout/">Выход</a></li>
 		</ul>
 		<?php

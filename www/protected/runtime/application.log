@@ -13158,3 +13158,76 @@ Stack trace:
 REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
 HTTP_REFERER=http://okna.local/nashi_rabotyi/
 ---
+2013/02/11 00:21:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/settingsMain/
+---
+2013/02/11 00:21:10 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "settingsMain".' in Z:\home\okna.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('settingsMain', Array, true)
+#1 Z:\home\okna.local\www\protected\modules\altadmin\controllers\DefaultController.php(75): CController->render('settingsMain', Array)
+#2 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionSettings()
+#3 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#7 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/defaul...')
+#8 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/altadmin/default/settings/
+HTTP_REFERER=http://okna.local/altadmin/pages/settingsMain/
+---
+2013/02/11 00:26:47 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "settingsMain".' in Z:\home\okna.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('settingsMain', Array, true)
+#1 Z:\home\okna.local\www\protected\modules\altadmin\controllers\DefaultController.php(75): CController->render('settingsMain', Array)
+#2 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionSettings()
+#3 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#7 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/defaul...')
+#8 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/altadmin/default/settings/
+HTTP_REFERER=http://okna.local/altadmin/pages/settingsMain/
+---
+2013/02/11 00:26:48 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "settingsMain".' in Z:\home\okna.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('settingsMain', Array, true)
+#1 Z:\home\okna.local\www\protected\modules\altadmin\controllers\DefaultController.php(75): CController->render('settingsMain', Array)
+#2 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionSettings()
+#3 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#7 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/defaul...')
+#8 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/altadmin/default/settings/
+HTTP_REFERER=http://okna.local/altadmin/pages/settingsMain/
+---
+2013/02/11 00:27:01 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "settingsMain".' in Z:\home\okna.local\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('settingsMain', Array, true)
+#1 Z:\home\okna.local\www\protected\modules\altadmin\controllers\DefaultController.php(75): CController->render('settingsMain', Array)
+#2 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionSettings()
+#3 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('settings')
+#7 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmin/defaul...')
+#8 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/altadmin/default/settings/
+HTTP_REFERER=http://okna.local/altadmin/pages/settingsMain/
+---
