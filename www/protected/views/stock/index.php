@@ -20,7 +20,7 @@ foreach ($model as $value) {
     echo '<div class="stock-item">';
     echo '<div class="stock-item-date"></div><h2>' . $value->menu_name . '</h2>';
     echo '<br clear="all"/>
-        <div class="stock-img" ' . (!empty($value->img) ? 'style="background:url(/images/stock/' . $value->img . '");"' : '').'>
+        <div class="stock-img" ' . (!empty($value->img) ? 'style="background:url(/images/stock/' . $value->img . ');"' : '').'>
 <form action="/zayavka-otpravlena" method="post">
 <div class="stock-form">
 <div class="stock-input-str-name"><span>Ваше имя:</span><input name="name" class="stock-input-name"></div>
