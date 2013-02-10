@@ -32,8 +32,9 @@ class PagesController extends Controller {
             $this->render('sitemap', array('model' => $model));
             return true;
         }
-
-        $this->render('detail', array('model' => $model));
+        $items=$model->children()->findAll('visibility=:visibility', array(':visibility' => 1));
+        //$items = Pages::model()->findAll('visibility=:visibility AND root=:root ORDER BY lft', array(':visibility' => 1, ':root' => $id));
+        $this->render('detail', array('model' => $model, 'items' => $items));
     }
 
 

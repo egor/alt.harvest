@@ -606,8 +606,11 @@ cursor: pointer;
     height: 7px;
     width: 8px;
     display: inline-table;
-}
 
+}
+.breadcrumbs span{
+    font-weight: bold;
+}
 h1 {
     font: normal 20px Arial,Helvetica,sans-serif;
     color:#f05d0a;
@@ -1087,4 +1090,64 @@ cursor: pointer;
 }
 .stock-item-short-text{
     margin-top: 10px;
+}
+.page-footer-form{
+    width: 530px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.page-footer-form-text{
+    height: 45px;
+
+    width: 510px;
+    overflow: hidden;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.page-footer-form-submit {
+display:inline-table; /* Ссылки будут блоками. */
+width:166px; /* Ширина блока 175 пикселей по ширине нашей "двойной" картинки */
+height:38px; /* Высота блока 40 - это половина высоты нашей двойной картинки */
+background:url("/images/site/ff-sub.png"); /* делаем картинку фоном (зная, что будет видна только половина картинки) */
+border: none;
+background-color: none;
+
+float: left;
+}
+.page-footer-form-submit:hover {
+background-position:0 -38px; /* ВСЯ ФИШКА ЗДЕСЬ! сдвигаем фон на 40 пикселей вверх, отрицательным значением background-position, тем самым показываем вторую часть изображения где наша кнопка активна */
+cursor: pointer;
+}
+.page-footer-form-name{
+    background: url(/images/site/footer-page-input.png) no-repeat;
+    width: 146px;
+    height: 38px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 8px;
+    float: left;
+}
+.page-footer-form-phone{
+    background: url(/images/site/footer-page-input.png) no-repeat;
+    width: 146px;
+    height: 38px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    float: left;
+}
+.line_footer_form{
+    font-size: 12px;
+    color:#636467;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
