@@ -2,9 +2,9 @@
 
 class DefaultController extends Controller
 {
-
     public function actionIndex()
     {
+        $this->pageTitle = 'CMS ALTADMIN';
         if (Yii::app()->user->isGuest || Yii::app()->user->role != 'admin') {
             $model = new LoginForm;
 
@@ -32,6 +32,7 @@ class DefaultController extends Controller
 
     public function actionLogin()
     {
+        $this->pageTitle = 'CMS ALTADMIN';
         $model = new LoginForm;
 
         // if it is ajax validation request
