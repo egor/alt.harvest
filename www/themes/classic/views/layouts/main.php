@@ -10,6 +10,9 @@
 
 
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/site/style.css" />
+        <!--[if lte IE 9]>
+        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/site/ie8.css" />
+        <![endif]-->
 <script src="/js/jquery-1.7.1.min.js"></script>
         <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     </head>

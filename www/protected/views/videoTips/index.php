@@ -5,6 +5,7 @@
 $this->breadcrumbs = array(
     $videoTipsData->menu_name,
 );
+    
 ?>
 <h1><?php echo $videoTipsData->h1; ?></h1>
 <?php

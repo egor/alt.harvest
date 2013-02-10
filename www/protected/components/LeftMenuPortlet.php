@@ -21,6 +21,7 @@ class LeftMenuPortlet extends CPortlet
         $items = array();
         $counts = count($models);
         $count = 0;
+        $sUrl = explode('/', Yii::app()->request->url);
         foreach($models as $model) {
             $subModels = Pages::model()->findAll('visibility=:visibility AND level=:level AND in_menu=:in_menu AND root=:root ORDER BY lft', array(':visibility'=>1, ':level'=>2,  ':in_menu'=>1, ':root'=>$model->pages_id));            
             $subItem = array();
@@ -29,7 +30,7 @@ class LeftMenuPortlet extends CPortlet
                 $subItem[] = array('label' => $subModel->menu_name, 
                     'url' =>  '/' . $subModel->url,
                     //'itemOptions'=>array('class'=> ($count==1?('first'):($count == $counts ? 'last':''))), 
-                    'active'=>'');
+                    'active'=>(in_array($subModel->url, $sUrl)?'true':''));
                 $subItem[] = array('label' => '', 
                     'itemOptions'=>array('class'=> 'left-menu-li-hr'), 
                     );

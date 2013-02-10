@@ -22,13 +22,25 @@ class HeaderMenuPortlet extends CPortlet
         $items = array();
         $counts = count($models);
         $count = 0;
+        $sUrl = explode('/', Yii::app()->request->url);
         foreach($models as $model) {
+//            $pages=Pages::model()->findByPk($model->pages_id);
+//            $nextPages=$pages->nextSibling;
+//            foreach ($nextPages as $key) {
+//                echo $key->pages_id;
+//            }
+            
             $count++;
             $items[] = array('label' => $model->menu_name, 
                 'url' =>  '/' . ($model->url == 'main'? '':$model->url . '/'),                 
                 'itemOptions'=>array('class'=> ($count==1?('first'):($count == $counts ? 'last':''))), 
-                'active'=>'');
-            
+                'active'=>(in_array($model->url, $sUrl)?'true':''));
+            if ($count != $counts) {
+            $items[] = array('label' => '', 
+                                 
+                'itemOptions'=>array('class'=> ($this->footer==1?'fdeli':'deli')), 
+                );
+            }
         }
         if ($this->footer == 1) {
             $this->render('footerMenuPortlet', array('items' => $items));

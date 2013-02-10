@@ -1,0 +1,17 @@
+/* 
+    Document   : ie8
+    Created on : 09.02.2013, 14:05:19
+    Author     : egorik
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.portlet-content ul#footerMenuList li.fdeli{
+    display: inline-table;
+    width: 40px;
+    text-align: center;
+    background: url(/images/site/menu-footer-sep.jpg) no-repeat center;    
+    padding: 0;
+    padding-top: 20px;
+    vertical-align: top;
+}

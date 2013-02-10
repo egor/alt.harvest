@@ -88,6 +88,16 @@ class SiteUrlRule extends CBaseUrlRule {
                             return false;
                         }
                     }
+                    //акции
+                    if ($model->module == 'stock') {
+                        if (!isset($url[1])) {
+                            return 'stock/';
+                        } else if ($url[1]==='page'){                            
+                            return 'stock/index/page/'.$url[2];
+                        } else {
+                            return false;
+                        }
+                    }
                 }
             } else {
                 $model = Pages::model()->find('url="' . end($url) . '"');

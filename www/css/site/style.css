@@ -127,17 +127,36 @@ a img{
     height: 31px;
     width: 985px;
     float: left;
+    text-align: center;
 }
 .portlet-content ul#headerMenuList li{
     display: inline-table;
     font-size: 13px;
     color: #626366;
     padding-top: 10px;
-    width: 160px;
+    /*width: 160px;
+    */
+
     text-align: center;
 }
+.portlet-content ul#headerMenuList li.deli{
+    display: inline-table;
+    width: 82px;
+    text-align: center;
+    background: url(/images/site/header-dili2.jpg) no-repeat center;
+    
+    padding: 0;
+    padding-top: 30px;
+    vertical-align: top;
+    
+}
+
+.portlet-content ul#headerMenuList li.first{
+    
+}
 .portlet-content ul#headerMenuList li.last{
-    width: 160px;
+    
+    
 }
 .portlet-content ul#headerMenuList li a{
     font-size: 13px;
@@ -145,8 +164,12 @@ a img{
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
 }
 .portlet-content ul#headerMenuList li a:hover{
+    text-decoration: underline;
+}
+.portlet-content ul#headerMenuList li.active{
     text-decoration: underline;
 }
 .header-menu-hr{
@@ -514,17 +537,28 @@ cursor: pointer;
     font-size: 15px;
 }
 .portlet-content ul#leftMenuList li ul li{
-    background: url(/images/site/left-li.jpg) 0 6px no-repeat;
+    background: url(/images/site/left-li.jpg) 0 4px no-repeat;
     padding-left: 10px;  
     
     list-style: none;
     margin-top: 11px;
+    
     /*background-position: 4px 0 0 4px;*/
+}
+
+.portlet-content ul#leftMenuList li ul li:hover {
+    /*background-position:0 -7px;*/
+    background: url(/images/site/left-lih.jpg) 0 4px no-repeat;
+    cursor: pointer;
+}
+.portlet-content ul#leftMenuList li.first ul li.active{
+    background: url(/images/site/left-lih.jpg) 0 4px no-repeat;
 }
 .portlet-content ul#leftMenuList li ul li a{
     font-size: 12px;
     color: #636467;
     text-decoration: none;
+    margin-left: 3px;
 }
 .left-menu-li-hr{
     background: url(/images/site/left-menu-li-hr.jpg) no-repeat;
@@ -681,13 +715,34 @@ h1 {
 .portlet-content ul#footerMenuList {
     display: inline-table;
 }
+.portlet-content ul#footerMenuList{
+    
+}
 .portlet-content ul#footerMenuList li {
     display: inline-table;
     color: #626366;
     font-size: 12px;
-    font: normal 10pt Tahoma,Arial,Helvetica,sans-serif;
-    width: 120px;
+    font: Tahoma,Arial,Helvetica,sans-serif;
+    /*width: 120px;*/
     
+}
+
+
+.portlet-content ul#footerMenuList li.fdeli{
+    display: inline-table;
+    width: 50px;
+
+    text-align: center;
+    background: url(/images/site/menu-footer-sep.jpg) no-repeat center;    
+    padding: 0;
+    padding-top: 20px;
+    vertical-align: top;
+}
+.portlet-content ul#footerMenuList li.active{
+    text-decoration: underline;
+}
+.portlet-content ul#footerMenuList li a:hover{
+    text-decoration: underline;
 }
 .portlet-content ul#footerMenuList li a{
     color: #626366;
@@ -695,6 +750,15 @@ h1 {
     font: normal 10pt Tahoma,Arial,Helvetica,sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+}
+.portlet-content ul#footerMenuList li{
+    text-align: left;
+}
+.portlet-content ul#footerMenuList{
+    
+}
+.portlet-content ul#footerMenuList li.last{
+
 }
 .portlet-content ul#footerMenuList li a:hover{
     text-decoration: underline;
@@ -930,4 +994,97 @@ h1{
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 5px;
+}
+/*акции*/
+.stock-img{
+    width: 530px;
+    height: 270px;
+    overflow: hidden;
+}
+.stock-input-name{
+    background: url(/images/site/stock-input.png) no-repeat;
+    width: 145px;
+    height: 33px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.stock-input-phone{
+    background: url(/images/site/stock-input.png) no-repeat;
+    width: 145px;
+    height: 33px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.stock-form{
+    margin-top: 94px;
+    margin-left: 253px;
+}
+.stock-input-str-name span{
+    font-size: 13px;
+    color:#636467;
+    margin-right: 28px;
+}
+.stock-input-str-phone{
+    margin-top: 4px;
+}
+.stock-input-str-phone span{
+    font-size: 13px;
+    color:#636467;
+    margin-right: 9px;
+}
+.stock-submit-str{
+    margin-top: 7px;
+    margin-left: 96px;
+}
+.main-top-form-sub2 {
+display:block; /* Ссылки будут блоками. */
+width:160px; /* Ширина блока 175 пикселей по ширине нашей "двойной" картинки */
+height:36px; /* Высота блока 40 - это половина высоты нашей двойной картинки */
+background:url("/images/site/stock-sub.png"); /* делаем картинку фоном (зная, что будет видна только половина картинки) */
+border: none;
+background-color: none;
+
+margin-top: 2px;
+}
+.main-top-form-sub2:hover {
+background-position:0 -36px; /* ВСЯ ФИШКА ЗДЕСЬ! сдвигаем фон на 40 пикселей вверх, отрицательным значением background-position, тем самым показываем вторую часть изображения где наша кнопка активна */
+cursor: pointer;
+}
+.stock-submit-str-phone{
+    
+}
+.countdownHolder{
+ margin-top: 7px;
+ margin-left: 77px;
+}
+.countdown-str{
+    margin-top: -7px;
+    color: #636467;
+    font-size: 11px;
+    margin-left: 96px;
+}
+.countdown-str span.hour{
+    margin-left: 19px;
+}
+.countdown-str span.min{
+    margin-left: 12px;
+}
+.countdown-str span.sec{
+    margin-left: 10px;
+}
+.stock-item-date{
+    float: left;
+    font-size: 14px;
+    color:#636467;
+}
+.stock-item h2 {
+    color:#3b3b3b;
+    font-size: 15px;
+    /*float: left;*/
+    text-decoration: none;
+}
+.stock-item-short-text{
+    margin-top: 10px;
 }
