@@ -495,4 +495,77 @@ class PagesController extends Controller {
         }
     }
 
+    
+    
+    
+    /**
+     * Настройки модуля новости
+     * @return type
+     */
+    public function actionSettings() {
+        
+        // = $_GET['id'];
+        $modelSettings['numPage'] = Settings::model()->findByPk(9);
+
+        $this->pageTitle = 'Настройка страниц | CMS ALTADMIN';
+        //if (isset($_POST['News'])) {
+        //}  
+        //var_dump($_POST['Pages']);
+        if (isset($_POST['Settings'])) {
+        
+        $modelSettings['numPage']->attributes = $_POST['Settings'];
+        $modelSettings['numPage']->attributes = (int)$modelSettings['numPage']->attributes;
+        $modelSettings['numPage']->save();
+        
+       
+        //sreturn $model;
+        Yii::app()->user->setFlash('success', "Настройки сохранены");
+        if (!isset($_POST['yt0'])) {
+
+        }
+        if (isset($_POST['yt2']) || isset($_POST['yt0'])) {
+            Yii::app()->request->redirect('/altadmin/pages/');
+        } elseif (isset($_POST['yt1'])) {
+            Yii::app()->request->redirect('/altadmin/pages/settings/');
+        }
+}
+
+        $this->render('settings', array('paginator' => $modelSettings['numPage']));
+    }
+    
+    
+    /**
+     * Настройки модуля новости
+     * @return type
+     */
+    public function actionSettingsMain() {
+        
+        // = $_GET['id'];
+        $modelSettings['numPage'] = Settings::model()->findByPk(8);
+
+        $this->pageTitle = 'Настройка главной страницы | CMS ALTADMIN';
+        //if (isset($_POST['News'])) {
+        //}  
+        //var_dump($_POST['Pages']);
+        if (isset($_POST['Settings'])) {
+        
+        $modelSettings['numPage']->attributes = $_POST['Settings'];
+        $modelSettings['numPage']->attributes = (int)$modelSettings['numPage']->attributes;
+        $modelSettings['numPage']->save();
+        
+       
+        //sreturn $model;
+        Yii::app()->user->setFlash('success', "Настройки сохранены");
+        if (!isset($_POST['yt0'])) {
+
+        }
+        if (isset($_POST['yt2']) || isset($_POST['yt0'])) {
+            Yii::app()->request->redirect('/altadmin/pages/');
+        } elseif (isset($_POST['yt1'])) {
+            Yii::app()->request->redirect('/altadmin/pages/settingsMain/');
+        }
+}
+
+        $this->render('settingsMain', array('paginator' => $modelSettings['numPage']));
+    }
 }

@@ -149,6 +149,7 @@
 		<ul class="toggle">
 			<li class="icn_categories"><a href="/altadmin/pages">Дерево</a></li>
                         <li class="icn_settings"><a href="/altadmin/pages/settings">Настройки</a></li>
+                        <li class="icn_settings"><a href="/altadmin/pages/settingsMain">Настройки Главной</a></li>
                         <li class="icn_settings"><a href="/altadmin/editFields">Редактируемые поля</a></li>
 		</ul>
                 

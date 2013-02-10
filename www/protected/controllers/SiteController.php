@@ -39,6 +39,10 @@ class SiteController extends Controller
 	{
 		if($error=Yii::app()->errorHandler->error)
 		{
+                    //var_dump($error); die;
+                    if ($error['code'] == 404) {
+                         Yii::app()->runController('pages/404');
+                    }
 			if(Yii::app()->request->isAjaxRequest)
 				echo $error['message'];
 			else

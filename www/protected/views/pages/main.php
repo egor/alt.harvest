@@ -10,7 +10,7 @@ $('#phone').mask('(999) 999-99-99');
 /* @var $this PagesController */
 
 $this->breadcrumbs=array(
-	'Pages',
+	//'Pages',
 );
 
 $this->widget('MainTopFormWidget');

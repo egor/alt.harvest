@@ -38,6 +38,9 @@ class SiteUrlRule extends CBaseUrlRule {
         if (empty($pathInfo)) {
             return 'pages/main';
         }
+        if ($url[0] == 'altadmin') {
+            return false;
+        }
         $url = explode('/', $pathInfo);
         $model = Pages::model()->find('url="' . $url[0] . '"');
         if (isset($model)) {
@@ -124,7 +127,7 @@ class SiteUrlRule extends CBaseUrlRule {
                 }
             }
         }
-        return 'pages/404';
+        return false;
         //return false;
         if (preg_match('%^(\w+)(/(\w+))?$%', $pathInfo, $matches)) {
             // Проверяем $matches[1] и $matches[3] на предмет
