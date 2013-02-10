@@ -12332,3 +12332,95 @@ Stack trace:
 REQUEST_URI=/js/altadmin/json2/json2.js
 HTTP_REFERER=http://okna.local/altadmin/pages/edit/116
 ---
+2013/02/10 21:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "false".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('false')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/est_mnogo_variantov
+---
+2013/02/10 21:13:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "false".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('false')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/est_mnogo_variantov
+---
+2013/02/10 21:13:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "false".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('false')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/est_mnogo_variantov
+---
+2013/02/10 21:15:18 [error] [php] explode() expects parameter 2 to be string, array given (Z:\home\okna.local\www\protected\components\SiteUrlRule.php:104)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(140): CUrlManager->parseUrl()
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/est_mnogo_variantov
+in Z:\home\okna.local\www\protected\components\SiteUrlRule.php (104)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/10 21:15:37 [error] [php] explode() expects parameter 2 to be string, array given (Z:\home\okna.local\www\protected\components\SiteUrlRule.php:104)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(140): CUrlManager->parseUrl()
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/novaya_stranitsa/est_mnogo_variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola
+in Z:\home\okna.local\www\protected\components\SiteUrlRule.php (104)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/10 21:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "novaya_stranitsa/est_mnogo_variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('novaya_stranits...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/novaya_stranitsa/est_mnogo_variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola
+---
+2013/02/10 21:19:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "novaya_stranitsa/est_mnogo1_variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('novaya_stranits...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/novaya_stranitsa/est_mnogo1_variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola
+---
+2013/02/10 21:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "novaya_stranitsa/est_mnogo_1variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('novaya_stranits...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/novaya_stranitsa/est_mnogo_1variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola
+---
+2013/02/10 21:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "novaya_stranitsa/est_mnogo_1variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('novaya_stranits...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/novaya_stranitsa/est_mnogo_1variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola
+---
+2013/02/10 21:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "404".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('404')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('404')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/404')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/novaya_stranitsa/est_mnogo_variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola1
+---
+2013/02/10 21:23:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "404".' in Z:\home\okna.local\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(270): CController->missingAction('404')
+#1 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('404')
+#2 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/404')
+#3 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/novaya_stranitsa/est_mnogo_variantov/Array_of_Active_Record_objects_corresponding_to_iPhone__Samsung_and_Motorola1
+---

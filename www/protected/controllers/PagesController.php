@@ -38,7 +38,13 @@ class PagesController extends Controller {
     }
 
 
-
+    public function action404() {
+        $model = Pages::model()->findByPk(Yii::app()->params['modules']['404']);
+        $this->pageTitle = $model->meta_title;
+        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_keywords);
+        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_description);
+        $this->render('404', array('model' => $model));
+    }
     // Uncomment the following methods and override them if needed
     /*
       public function filters()

@@ -34,6 +34,7 @@ class SiteUrlRule extends CBaseUrlRule {
      * @return string|boolean
      */
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo) {
+        
         if (empty($pathInfo)) {
             return 'pages/main';
         }
@@ -100,13 +101,31 @@ class SiteUrlRule extends CBaseUrlRule {
                     }
                 }
             } else {
+                //проверим все ли уровни вложености перед страницей
+                //что бы избежать такой работы
+                // реальная страница: /1/2/3/4/5
+                // url: /5
+                $cou = count($url);                
                 $model = Pages::model()->find('url="' . end($url) . '"');
+                if (($cou+1) != $model->level) {
+                    return 'pages/404';
+                }
+                //что бы избежать такой работы
+                // реальная страница: /1/2/3/4/5
+                // url: /4/3/1/4/5
+                foreach ($url as $value) {
+                    $modelTest = Pages::model()->find('url="' . $value . '" AND root="'.$model->root.'"');
+                    if (!isset($modelTest->pages_id)){
+                        return 'pages/404';
+                    }
+                }
                 if (isset($model)) {
                     return 'pages/detail/id/'.$model->pages_id;
                 }
             }
         }
-        return false;
+        return 'pages/404';
+        //return false;
         if (preg_match('%^(\w+)(/(\w+))?$%', $pathInfo, $matches)) {
             // Проверяем $matches[1] и $matches[3] на предмет
             // соответствия производителю и модели в БД.
