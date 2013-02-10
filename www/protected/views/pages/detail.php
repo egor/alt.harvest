@@ -75,7 +75,7 @@ if (!empty($model->img_top_form)) {
 foreach ($items as $item) {
     $url =GetUrlToPage::getUrlToPageById($item->pages_id);
     echo '<h2><a href="'.$url.'">'.$item->menu_name.'</a></h2>';
-    echo '<div class="item-short-text">'.(!empty($item->img)?'<img class="list-img" src="/images/pages/'.$item->img.'" alt="'.$item->img_alt.'" title="'.$item->img_title.'" />':'').$item->short_text.'</div>';
+    echo '<div class="item-short-text">'.(!empty($item->img)?'<a href="'.$url.'"><img class="list-img" src="/images/pages/'.$item->img.'" alt="'.$item->img_alt.'" title="'.$item->img_title.'" /></a>':'').$item->short_text.'</div>';
     echo '<br clear="all"/><a class="more" href="'.$url.'">'.SelectDataFromEditFields::selectValue('news_list_text').'</a><br />';
 }
 ?>

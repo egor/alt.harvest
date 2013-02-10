@@ -13,11 +13,27 @@
         <!--[if lte IE 9]>
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/site/ie8.css" />
         <![endif]-->
-<script src="/js/jquery-1.7.1.min.js"></script>
+        <script src="/js/jquery-1.7.1.min.js"></script>
+
+
+	
+    
+    <script type="text/javascript" src="/js/site/lightbox/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/site/lightbox/jquery.lightbox-0.5.css" media="screen" />
+
+    <script type="text/javascript">
+	$(function(){
+		$("a[href$='jpg']").lightBox();
+	});
+    </script>
+    
+
         <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     </head>
 
     <body>
+        
+
         <div class="header">
             <div class="header-content">
                 <div class="main-logo">
@@ -190,6 +206,9 @@
             $('.site-content').height(right);
         }
         //alert (left +' ' + center + ' ' + right);
+        
+        
+        
     </script>
-    </body>
+ </body>
 </html>

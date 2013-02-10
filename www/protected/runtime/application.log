@@ -12798,3 +12798,363 @@ Stack trace:
 REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
 HTTP_REFERER=http://okna.local/otzivi/
 ---
+2013/02/10 23:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/site/images/bg-checker.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/site/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/site/images/bg-checker.png
+HTTP_REFERER=http://okna.local/css/site/lightbox/screen.css
+---
+2013/02/10 23:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/10 23:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/close.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/close.pn...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/close.png
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/10 23:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/site/images/prev.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/site/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/site/images/prev.png
+HTTP_REFERER=http://okna.local/css/site/lightbox/lightbox.css
+---
+2013/02/10 23:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/close.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/close.pn...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/close.png
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/10 23:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/10 23:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/site/images/prev.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/site/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/site/images/prev.png
+HTTP_REFERER=http://okna.local/css/site/lightbox/lightbox.css
+---
+2013/02/10 23:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/site/images/next.png".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/site/images...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/site/images/next.png
+HTTP_REFERER=http://okna.local/css/site/lightbox/lightbox.css
+---
+2013/02/11 00:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/site/lightbox/examples/thumb-5.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/site/lig...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/site/lightbox/examples/thumb-5.jpg
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/11 00:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/site/lightbox/examples/thumb-3.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/site/lig...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/site/lightbox/examples/thumb-3.jpg
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/11 00:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/site/lightbox/examples/thumb-6.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/site/lig...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/site/lightbox/examples/thumb-6.jpg
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/11 00:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/site/lightbox/examples/thumb-4.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/site/lig...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/site/lightbox/examples/thumb-4.jpg
+HTTP_REFERER=http://okna.local/karta_sayta
+---
+2013/02/11 00:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/site/lightbox/examples/thumb-3.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/site/lig...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/site/lightbox/examples/thumb-3.jpg
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/site/lightbox/examples/thumb-3.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/site/lig...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/site/lightbox/examples/thumb-3.jpg
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/js/site/lightbox/jquery.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/j...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/js/site/lightbox/jquery.js
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-ico-loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-close.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-close.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-close.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-close.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-ico-loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-ico-loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-close.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-close.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-ico-loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-close.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-close.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-ico-loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-close.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-close.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-ico-loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-close.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-close.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-close.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-close.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-ico-loading.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-next.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-next.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-btn-prev.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-btn-prev.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
+2013/02/11 00:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nashi_rabotyi/images/lightbox-blank.gif".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('nashi_rabotyi/i...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/nashi_rabotyi/images/lightbox-blank.gif
+HTTP_REFERER=http://okna.local/nashi_rabotyi/
+---
