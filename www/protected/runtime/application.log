@@ -12278,3 +12278,57 @@ Stack trace:
 REQUEST_URI=/js/altadmin/json2/json2.js
 HTTP_REFERER=http://okna.local/altadmin/pages/edit/113
 ---
+2013/02/10 21:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/10 21:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/10 21:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/116
+---
+2013/02/10 21:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/116
+---
+2013/02/10 21:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/116
+---
+2013/02/10 21:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/116
+---
