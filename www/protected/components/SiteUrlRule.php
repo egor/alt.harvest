@@ -38,10 +38,10 @@ class SiteUrlRule extends CBaseUrlRule {
         if (empty($pathInfo)) {
             return 'pages/main';
         }
+        $url = explode('/', $pathInfo);
         if ($url[0] == 'altadmin') {
             return false;
         }
-        $url = explode('/', $pathInfo);
         $model = Pages::model()->find('url="' . $url[0] . '"');
         if (isset($model)) {
             if (!empty($model->module)) {
