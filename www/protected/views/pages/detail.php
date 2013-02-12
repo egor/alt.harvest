@@ -53,10 +53,10 @@ if (!empty($model->img_top_form)) {
         $(function(){    	
             <?php
             $datetime1 = date_create(date('Y-m-d'));
-            $datetime2 = date_create(date('Y-m-d', $value->end_date));
+            $datetime2 = date_create(date('Y-m-d', $model->end_date_top_form));
             $interval = date_diff($datetime1, $datetime2);
             ?>
-            ts = (new Date()).getTime() + <?php echo $interval->days; ?>*24*60*60*1000;//(new Date()).getTime() + <?php echo (time() - $value->end_date); ?>*1000;//*24*60*60*1000;
+            ts = (new Date()).getTime() + <?php echo $interval->days; ?>*24*60*60*1000;//(new Date()).getTime() + <?php echo (time() - $model->end_date_top_form); ?>*1000;//*24*60*60*1000;
             $('#countdown<?php echo $model->pages_id; ?>').countdown({
                 timestamp	: ts,
                 callback	: function(days, hours, minutes, seconds){    			
