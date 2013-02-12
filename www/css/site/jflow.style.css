@@ -15,8 +15,24 @@ Date: July 29, 2010
 	position: relative;
 	margin: 0 auto;
 }
-
-
+#myController{text-align: right;}
+.jFlowControl{
+    display: inline-table;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    background-color: #6B6C6F;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.jFlowControl:hover{
+    background-color: #F05D0A;
+    cursor: pointer;
+}
+.jFlowSelected{
+    background-color: #F05D0A;
+}
 .jFlowSlideContainer a {
 	color: #F90;
 	text-decoration: none;

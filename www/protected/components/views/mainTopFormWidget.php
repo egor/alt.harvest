@@ -16,8 +16,8 @@ if (empty($setting) || $setting <= 0) {
 			slideWrapper : "#jFlowSlider", // must be id, use # sign
 			slides: "#mySlides",  // the div where all your sliding divs are nested in
 			selectedWrapper: "jFlowSelected",  // just pure text, no sign
-			width: "800px",  // this is the width for the content-slider
-			height: "350px",  // this is the height for the content-slider
+			width: "530px",  // this is the width for the content-slider
+			height: "270px",  // this is the height for the content-slider
 			duration: 400,  // time in miliseconds to transition one slide
 			prev: ".jFlowPrev", // must be class, use . sign
 			next: ".jFlowNext", // must be class, use . sign
@@ -27,6 +27,7 @@ if (empty($setting) || $setting <= 0) {
 });
 </script>
 <link rel="stylesheet" href="/library/countdown/jquery.countdown.css" />        
+
 <div id="slider">
 <div id="mySlides">
 <?php
@@ -57,8 +58,7 @@ if (empty($setting) || $setting <= 0) {
     foreach ($model as $value) {
         echo '<span class="jFlowControl"></span>';
     }
-    ?>
-   
+    ?>   
 </div>
 
 <span class="jFlowPrev"><div></div></span>
