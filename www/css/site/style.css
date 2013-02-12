@@ -1192,3 +1192,9 @@ cursor: pointer;
     margin-top: 5px;
 
 }
+#leftMenuList li.inner ul li.active{
+    background: url("/images/site/left-lih.jpg") no-repeat scroll 0 4px transparent;
+}
+#leftMenuList li.last ul li.active {
+    background: url("/images/site/left-lih.jpg") no-repeat scroll 0 4px transparent;
+}
