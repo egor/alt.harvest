@@ -26,8 +26,8 @@ class VideoTipsController extends Controller {
             $start = 0;
         }
         $this->pageTitle = $videoTipsData->meta_title;
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $videoTipsData->meta_keywords);
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $videoTipsData->meta_description);
+        Yii::app()->clientScript->registerMetaTag($videoTipsData->meta_keywords, 'keywords');
+        Yii::app()->clientScript->registerMetaTag($videoTipsData->meta_description, 'description');        
         $model = VideoTips::model()->findAll('visibility=:visibility ORDER BY `date` DESC LIMIT ' . $start . ', ' . $setting->value, array(':visibility' => 1));
         $this->render('index', array('model' => $model, 'videoTipsData' => $videoTipsData, 'paginator' => $paginator, 'countPage' => $countPage, 'settingValue' => $setting->value));
     }

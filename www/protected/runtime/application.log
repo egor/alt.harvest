@@ -13440,3 +13440,21 @@ REQUEST_URI=/favicon.ico
 in Z:\home\okna.local\www\protected\components\RightBannersWidget.php (17)
 in Z:\home\okna.local\www\themes\classic\views\layouts\main.php (106)
 in Z:\home\okna.local\www\themes\classic\views\layouts\column1.php (6)
+2013/02/12 14:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---
+2013/02/12 14:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/reviews/12_balkoni_lodjii.jpg".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/reviews/...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/reviews/12_balkoni_lodjii.jpg
+HTTP_REFERER=http://okna.local/otzivi/
+---

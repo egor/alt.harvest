@@ -26,8 +26,8 @@ class ReviewsController extends Controller {
             $start = 0;
         }
         $this->pageTitle = $reviewsData->meta_title;
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $reviewsData->meta_keywords);
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $reviewsData->meta_description);
+        Yii::app()->clientScript->registerMetaTag($reviewsData->meta_keywords, 'keywords');
+        Yii::app()->clientScript->registerMetaTag($reviewsData->meta_description, 'description');
         $model = Reviews::model()->findAll('visibility=:visibility ORDER BY `date` DESC LIMIT ' . $start . ', ' . $setting->value, array(':visibility' => 1));
         $this->render('index', array('model' => $model, 'reviewsData' => $reviewsData, 'paginator' => $paginator, 'countPage' => $countPage, 'settingValue'=>$setting->value));
     }

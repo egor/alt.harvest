@@ -12,8 +12,8 @@ class PagesController extends Controller {
     public function actionMain() {
         $model = Pages::model()->findByPk(Yii::app()->params['modules']['mainPage']);
         $this->pageTitle = $model->meta_title;
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_keywords);
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_description);
+        Yii::app()->clientScript->registerMetaTag($model->meta_keywords, 'keywords');
+        Yii::app()->clientScript->registerMetaTag($model->meta_description, 'description');
         $this->render('main', array('model' => $model));
     }
 
@@ -26,8 +26,8 @@ class PagesController extends Controller {
         //var_dump($_GET); die;
         $model = Pages::model()->findByPk($id);
         $this->pageTitle = $model->meta_title;
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_keywords);
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_description);
+        Yii::app()->clientScript->registerMetaTag($model->meta_keywords, 'keywords');
+        Yii::app()->clientScript->registerMetaTag($model->meta_description, 'description');
         if ($id == Yii::app()->params['modules']['sitemap']) {
             $this->render('sitemap', array('model' => $model));
             return true;
@@ -41,8 +41,8 @@ class PagesController extends Controller {
     public function action404() {
         $model = Pages::model()->findByPk(Yii::app()->params['modules']['404']);
         $this->pageTitle = $model->meta_title;
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_keywords);
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $model->meta_description);
+        Yii::app()->clientScript->registerMetaTag($model->meta_keywords, 'keywords');
+        Yii::app()->clientScript->registerMetaTag($model->meta_description, 'description');
         $this->render('404', array('model' => $model));
     }
     // Uncomment the following methods and override them if needed

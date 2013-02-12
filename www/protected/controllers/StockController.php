@@ -26,8 +26,8 @@ class StockController extends Controller
             $start = 0;
         }
         $this->pageTitle = $stockData->meta_title;
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $stockData->meta_keywords);
-        Yii::app()->clientScript->registerMetaTag('meta_keywords', $stockData->meta_description);
+        Yii::app()->clientScript->registerMetaTag($stockData->meta_keywords, 'keywords');
+        Yii::app()->clientScript->registerMetaTag($stockData->meta_description, 'description');
         $model = Stock::model()->findAll('visibility=:visibility ORDER BY `date` DESC LIMIT ' . $start . ', ' . $setting->value, array(':visibility' => 1));
         $this->render('index', array('model' => $model, 'stockData' => $stockData, 'paginator' => $paginator, 'countPage' => $countPage, 'settingValue'=>$setting->value));
     }

@@ -250,6 +250,9 @@ a img{
 .portlet-content ul.left-menu-last-stat{
     margin-left: 10px;
 }
+.portlet-content ul.left-menu-last-stat li a:hover{
+    text-decoration: underline;
+}
 .right-video-header{
     font-size: 21px;
     font-weight: bold;
@@ -324,6 +327,13 @@ h1.main_h1{
     font-weight: bold;
     color:#f05d0a;
     margin-top: 20px;
+    margin-bottom: 8px;
+}
+h1.main_h1s{
+    font-size: 20px;
+    font-weight: bold;
+    color:#f05d0a;
+    
     margin-bottom: 8px;
 }
 .main-top-form{
@@ -859,6 +869,9 @@ h1 {
 .news_list div.news-item a{
     text-decoration: none;
     
+}
+.news-item a.list-header h2:hover{
+    text-decoration: underline;
 }
 /*.news_list div.news-item span.news-item-date {*/
 .news_list div.news-item div.news-item-date{

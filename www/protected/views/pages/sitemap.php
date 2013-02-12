@@ -4,7 +4,7 @@ $this->breadcrumbs = array(
     $model->menu_name,
 );
 ?>
-<h1  class="main_h1"><?php echo $model->h1; ?></h1>
+<h1  class="main_h1s"><?php echo $model->h1; ?></h1>
 <div class="sitemap">
     <?php
     echo $model->text;
