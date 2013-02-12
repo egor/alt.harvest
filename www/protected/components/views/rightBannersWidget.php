@@ -4,6 +4,6 @@ foreach ($banners as $banner) {
             <a href="'.$banner->link.'" '.($banner->new_window==1?'target="_blank"':'').'>
                 <img src="/images/banners/'.$banner->img.'" />
             </a>
-        </div>';
+        </div><br clear="all">';
 }
 ?>

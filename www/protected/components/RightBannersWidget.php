@@ -13,7 +13,8 @@ class RightBannersWidget extends CWidget
 {
     public function init()
     {
-        $model = Banners::model()->findAll('visibility=1', array('order' => 'position DESC'));
+        //$model = Banners::model()->findAll('visibility=1', array('order' => 'position DESC'));
+        $model = Banners::model()->findAll('visibility=1 ORDER BY position DESC');
         $this->render('rightBannersWidget',array('banners' => $model));
     }
  

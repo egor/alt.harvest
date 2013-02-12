@@ -90,7 +90,11 @@ $model = new Banners;
 	}
 	//обновляем записи
 	foreach ($data as $note) {
-            $model = Banners::model()->updateByPk(substr($note->id, 5), array('position'=>($note->order+1)));
+            //echo substr($note->id, 5).' '.($note->order+1).'<br>';
+            //$model = Banners::model()->updateByPk(substr($note->id, 5), array('position'=>($note->order+1)));
+            $model = Banners::model()->findByPk(substr($note->id, 5));
+            $model->position = $note->order+1;
+            $model->save();
 	}
 	//отправляем отчет браузеру
 	echo json_encode(array('status'=>'OK'));
