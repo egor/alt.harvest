@@ -191,15 +191,15 @@ class PagesController extends Controller {
     public function actionRemove() {
         $id = $_POST['id'];
         if (
-        $id = Yii::app()->params['modules']['news'] ||
-        $id = Yii::app()->params['modules']['works'] ||
-        $id = Yii::app()->params['modules']['reviews'] ||
-        $id = Yii::app()->params['modules']['main'] ||
-        $id = Yii::app()->params['modules']['zayavka'] ||
-        $id = Yii::app()->params['modules']['sitemap'] ||
-        $id = Yii::app()->params['modules']['videoTips'] ||
-        $id = Yii::app()->params['modules']['stock'] ||
-        $id = Yii::app()->params['modules']['404']
+        $id == Yii::app()->params['modules']['news'] ||
+        $id == Yii::app()->params['modules']['works'] ||
+        $id == Yii::app()->params['modules']['reviews'] ||
+        $id == Yii::app()->params['modules']['main'] ||
+        $id == Yii::app()->params['modules']['zayavka'] ||
+        $id == Yii::app()->params['modules']['sitemap'] ||
+        $id == Yii::app()->params['modules']['videoTips'] ||
+        $id == Yii::app()->params['modules']['stock'] ||
+        $id == Yii::app()->params['modules']['404']
         ) {
             echo json_encode(array('success' => false, 'message' => 'Эту страницу нельзя удалять'));
             exit;
