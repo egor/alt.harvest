@@ -86,6 +86,30 @@ if (Yii::app()->user->hasFlash('success')) {
             <input type="hidden" name="Reviews[delpic]" value="0" id="ytReviews_delpic">
             <input type="checkbox" value="1" id="Reviews_delpic" name="Reviews[delpic]">
         </fieldset>
+        
+        
+        <fieldset>
+            <?php echo $form->labelEx($model, 'img_big'); ?><br/><br/>
+            <p>&nbsp;&nbsp;&nbsp;<?php echo $form->fileField($model, 'img_big'); ?></p>
+            <?php
+            echo $form->error($model, 'img_big');
+            if (!empty($model->img_big)) {
+                echo '<p>&nbsp;&nbsp;&nbsp;<img src="/images/reviews/big/' . $model->img_big . '" height="100px;"></p>';
+            }
+            echo $form->labelEx($model, 'img_big_alt');
+            ?>
+            <?php echo $form->textField($model, 'img_big_alt'); ?>
+            <?php echo $form->error($model, 'img_big_alt'); ?>
+            <p><br/></p><p><br/></p>
+            <?php echo $form->labelEx($model, 'img_big_title'); ?>
+            <?php echo $form->textField($model, 'img_big_title'); ?>
+            <?php echo $form->error($model, 'img_big_title'); ?>
+            <p><br/></p><p><br/><br/></p>
+            <label for="Reviews_delpic_big">Удалить картинку</label>
+            <input type="hidden" name="Reviews[delpic_big]" value="0" id="ytReviews_delpic_big">
+            <input type="checkbox" value="1" id="Reviews_delpic_big" name="Reviews[delpic_big]">
+        </fieldset>
+        
         <fieldset>
             <?php echo $form->labelEx($model, 'user_name'); ?>
             <?php echo $form->textField($model, 'user_name'); ?>

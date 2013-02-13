@@ -58,8 +58,8 @@ class Pages extends CActiveRecord {
                 meta_keywords, meta_description, short_text, text, img, 
                 img_alt, img_title, add_1, add_2, in_last, 
                 date, print_top_form, img_top_form, end_date_top_form, end_time_top_form,
-                print_footer_form, text_footer_form, color_footer_form, line_footer_form', 'safe'),
-            array('root, lft, rgt, level, visibility, in_menu, in_last, date', 'numerical', 'integerOnly' => true),
+                print_footer_form, text_footer_form, color_footer_form, line_footer_form, print_date, like', 'safe'),
+            array('root, lft, rgt, level, visibility, in_menu, in_last, date, print_date, like', 'numerical', 'integerOnly' => true),
             array('url, menu_name, h1, img, img_alt, img_title, img_top_form, color_footer_form, line_footer_form', 'length', 'max' => 255),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
@@ -68,7 +68,7 @@ class Pages extends CActiveRecord {
                 meta_title, meta_keywords, meta_description, short_text, text, 
                 img, img_alt, img_title, add_1, add_2, 
                 in_last, date, print_top_form, img_top_form, end_date_top_form, 
-                end_time_top_form, print_footer_form, text_footer_form, color_footer_form, line_footer_form', 'safe', 'on' => 'search'),
+                end_time_top_form, print_footer_form, text_footer_form, color_footer_form, line_footer_form, print_date, like', 'safe', 'on' => 'search'),
         );
     }
 
@@ -116,7 +116,10 @@ class Pages extends CActiveRecord {
             'print_footer_form'=>'Выводить форму внизу страницы',
             'text_footer_form'=>'Текст формы',
             'color_footer_form'=>'Цвет фона',
-            'line_footer_form'=>'Текст под формой'            
+            'line_footer_form'=>'Текст под формой',
+            'print_date'=>'Выводить дату',
+            'like'=>'Выводить кнопки соц сетей'
+            
         );
     }
 
@@ -160,6 +163,9 @@ class Pages extends CActiveRecord {
         $criteria->compare('text_footer_form', $this->text_footer_form, true);
         $criteria->compare('color_footer_form', $this->color_footer_form, true);
         $criteria->compare('line_footer_form', $this->line_footer_form, true);
+        $criteria->compare('print_date', $this->print_date, true);
+        $criteria->compare('like', $this->like, true);
+        
  
 
         return new CActiveDataProvider($this, array(

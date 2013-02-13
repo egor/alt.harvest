@@ -49,6 +49,7 @@ class ReviewsController extends Controller {
         $model = Reviews::model()->findByPk($id);
         $model->scenario = 'edit';
         $img = $model->img;
+        $img_big = $model->img_big;
         if (isset($_POST['Reviews'])) {
             $model->attributes = $_POST['Reviews'];
             $model->date = DateOperations::dateToUnixTime($model->date);
@@ -66,8 +67,27 @@ class ReviewsController extends Controller {
                 if (isset($_POST['Reviews']['delpic']) && $_POST['Reviews']['delpic'] == 1) {
                     $this->deletePic($id);
                     $model->img = '';
+                    $model->img_alt = '';
+                    $model->img_title = '';
                 }
 
+                $file_big = CUploadedFile::getInstance($model, 'img_big');
+                if (!empty($file_big->name)) {
+                    if (!empty($img_big) && file_exists(Yii::getPathOfAlias('webroot') . '/images/reviews/big/' . $img_big)) {
+                        unlink(Yii::getPathOfAlias('webroot') . '/images/reviews/big/' . $img_big);
+                    }
+                    $model->img_big = $id . '_' . $file_big->name;
+                    $file_big->saveAs(Yii::getPathOfAlias('webroot') . '/images/reviews/big/' . $model->img_big);
+                } else {
+                    $model->img_big = $img_big;
+                }
+                if (isset($_POST['Reviews']['delpic_big']) && $_POST['Reviews']['delpic_big'] == 1) {
+                    $this->deletePicBig($id);
+                    $model->img_big = '';
+                    $model->img_big_alt = '';
+                    $model->img_big_title = '';                    
+                }
+                
                 Yii::app()->user->setFlash('success', "Отзыв отредактирован");
                 if (!isset($_POST['yt0'])) {
                     $model->save();
@@ -92,6 +112,7 @@ class ReviewsController extends Controller {
     public function actionDelete($id = 0) {
         if (!empty($id)) {
             $this->deletePic($id);
+            $this->deletePicBig($id);
             Reviews::model()->deleteByPk($id);
             Yii::app()->user->setFlash('success', "Отзыв удален");
             Yii::app()->request->redirect('/altadmin/reviews/');
@@ -124,6 +145,15 @@ class ReviewsController extends Controller {
         if (!empty($model->img) && file_exists(Yii::getPathOfAlias('webroot') . '/images/reviews/' . $model->img)) {
             unlink(Yii::getPathOfAlias('webroot') . '/images/reviews/' . $model->img);
         }
+        Reviews::model()->updateByPk($id, array('img'=>'', 'img_alt'=>'', 'img_title'=>''));
+        return true;
+    }
+    public function deletePicBig($id) {
+        $model = Reviews::model()->findByPk($id);
+        if (!empty($model->img_big) && file_exists(Yii::getPathOfAlias('webroot') . '/images/reviews/big/' . $model->img_big)) {
+            unlink(Yii::getPathOfAlias('webroot') . '/images/reviews/big/' . $model->img_big);
+        }
+        Reviews::model()->updateByPk($id, array('img_big_alt'=>'', 'img_big_alt'=>'', 'img_big_title'=>''));
         return true;
     }
 

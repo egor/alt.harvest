@@ -40,12 +40,12 @@ class Reviews extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('menu_name, link_to_video, text, user_address, visibility, position, user_name, short_text, img, img_alt, img_title, date', 'safe'),
+			array('menu_name, link_to_video, text, user_address, visibility, position, user_name, short_text, img, img_alt, img_title, date, img_big, img_big_alt, img_big_title,', 'safe'),
 			array('visibility, position, date', 'numerical', 'integerOnly'=>true),
-			array('menu_name, link_to_video, user_address, user_name, img, img_alt, img_title,', 'length', 'max'=>255),
+			array('menu_name, link_to_video, user_address, user_name, img, img_alt, img_title, img_big, img_big_alt, img_big_title,', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('reviews_id, menu_name, link_to_video, text, user_address, visibility, position, user_name, short_text, img, img_alt, img_title, date', 'safe', 'on'=>'search'),
+			array('reviews_id, menu_name, link_to_video, text, user_address, visibility, position, user_name, short_text, img, img_alt, img_title, date, img_big, img_big_alt, img_big_title,', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -78,7 +78,10 @@ class Reviews extends CActiveRecord
                         'short_text'=>'Краткое описание',
                         'img'=>'Картинка',
                         'img_alt'=>'alt (альтернативный текст)',
-                        'img_title'=>'title (заголовок)'
+                        'img_title'=>'title (заголовок)',
+                        'img_big'=>'Большая картинка',
+                        'img_big_title'=>'title (заголовок)',
+                        'img_big_alt'=>'alt (альтернативный текст)'
 		);
 	}
 
@@ -105,7 +108,9 @@ class Reviews extends CActiveRecord
                 $criteria->compare('img',$this->img);
                 $criteria->compare('img_alt',$this->img_alt);
                 $criteria->compare('img_title',$this->img_title);
-
+                $criteria->compare('img_big',$this->img_big);
+                $criteria->compare('img_big_alt',$this->img_big_alt);
+                $criteria->compare('img_big_title',$this->img_big_title);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

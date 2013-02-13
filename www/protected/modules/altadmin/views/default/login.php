@@ -28,10 +28,10 @@ $this->breadcrumbs=array(
 					
 	<table>
             <tr>
-                <td><?php echo $form->labelEx($model, 'username'); ?></td>
+                <td><nobr><?php echo $form->labelEx($model, 'username'); ?></nobr></td>
                 <td><?php echo $form->textField($model,'username'); ?></td></tr>
                 <tr><td colspan="2"><?php echo $form->error($model,'username'); ?></td></tr>					
-            <tr><td><?php echo $form->labelEx($model, 'password'); ?></td><td><?php echo $form->passwordField($model,'password'); ?></td></tr>
+            <tr><td><nobr><?php echo $form->labelEx($model, 'password'); ?></nobr></td><td><?php echo $form->passwordField($model,'password'); ?></td></tr>
 		<tr><td colspan="2"><?php echo $form->error($model,'password'); ?>	</td></tr>					
             <tr><td><?php echo $form->checkBox($model, 'rememberMe'); ?></td><td><?php echo $form->label($model,'rememberMe'); ?></td></tr>
 		<tr><td colspan="2"><?php echo $form->error($model,'rememberMe'); ?></td></tr>

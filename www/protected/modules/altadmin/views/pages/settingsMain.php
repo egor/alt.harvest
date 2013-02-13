@@ -47,43 +47,7 @@ endif; ?>
 		</ul>
 		</header>
 
-		<!-- <div class="tab_container">
-			<div class="tab_content" id="tab1" style="display: block;">
 
-                                    <fieldset>
-                                        <?php// echo $form->labelEx($settings, 'url'); ?>
-                                        <?php// echo $form->textField($settings, 'url'); ?>
-                                        <?php// echo $form->error($settings, 'url'); ?>
-                                    </fieldset>
-                                        
-                                                      
-                                    <fieldset>
-                                        <?php// echo $form->labelEx($settings, 'menu_name'); ?>
-                                        <?php// echo $form->textField($settings, 'menu_name'); ?>
-                                        <?php// echo $form->error($settings, 'menu_name'); ?>
-                                    </fieldset>
-                                <fieldset>
-                                        <?php// echo $form->labelEx($settings, 'h1'); ?>
-                                        <?php// echo $form->textField($settings, 'h1'); ?>
-                                        <?php// echo $form->error($settings, 'h1'); ?>
-                                    </fieldset>
-                                        
-                                        <fieldset>
-                                        <?php// echo $form->labelEx($settings, 'meta_title'); ?>
-                                        <?php// echo $form->textField($settings, 'meta_title'); ?>
-                                        <?php// echo $form->error($settings, 'meta_title'); ?> 
-    				</fieldset>
-                                        <fieldset>    
-                                        <?php// echo $form->labelEx($settings, 'meta_keywords'); ?>
-                                        <?php// echo $form->textField($settings, 'meta_keywords'); ?>
-                                        <?php// echo $form->error($settings, 'meta_keywords'); ?>
-</fieldset>
-                                        <fieldset>    
-                                        <?php// echo $form->labelEx($settings, 'meta_description'); ?>
-                                        <?php// echo $form->textField($settings, 'meta_description'); ?>
-                                        <?php// echo $form->error($settings, 'meta_description'); ?>
-    	</fieldset>
-			</div> end of #tab1 -->
 			
 			<div class="tab_content" id="tab2" style="display: none;">
 			

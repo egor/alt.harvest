@@ -8,7 +8,7 @@ if (empty($setting) || $setting <= 0) {
 }
 ?>
 <link href="/css/site/jflow.style.css" type="text/css" rel="stylesheet"/>
-<script src="/js/site/jflow.plus.js" type="text/javascript"></script>
+<script src="/js/site/jflow2.plus.js" type="text/javascript"></script>
 <script language="javascript">
 	$(document).ready(function(){
 	    $("#myController").jFlow({
@@ -22,9 +22,12 @@ if (empty($setting) || $setting <= 0) {
 			prev: ".jFlowPrev", // must be class, use . sign
 			next: ".jFlowNext", // must be class, use . sign
 			auto: true,
-                        timers: <?php echo $setting; ?>
+                        effect: "flow",
+                        pause: <?php echo $setting; ?>
+                        
     });
 });
+//timers: 1000<?php //echo $setting; ?>
 </script>
 <link rel="stylesheet" href="/library/countdown/jquery.countdown.css" />        
 
@@ -32,21 +35,21 @@ if (empty($setting) || $setting <= 0) {
 <div id="mySlides">
 <?php
     foreach ($model as $value) {
-    echo '<div id="slide'.$value->stock_id.'">
-        <div class="stock-item">
-        <div class="stock-img" ' . (!empty($value->img) ? 'style="background:url(/images/stock/' . $value->img . ');"' : '').'>
-<form action="/zayavka-otpravlena" id="formz'.$value->stock_id.'" method="post">
-<div class="stock-form">
-<div class="stock-input-str-name"><span>Ваше имя:</span><input name="name" id="name'.$value->stock_id.'" class="stock-input-name"></div>
-<div class="stock-input-str-phone"><span>Ваш телефон:</span><input name="phone" id="phone'.$value->stock_id.'" class="stock-input-phone"></div>
-<div class="stock-submit-str"><input type="submit" value="" class="main-top-form-sub2"></div>
-<div id="countdown'.$value->stock_id.'"></div>   
-<div class="countdown-str"><span class="day">дней</span><span class="hour">часов</span><span class="min">минут</span><span class="sec">секунд</span></div>
-</div>
-</form>
-</div>
-</div>
-</div>';
+    echo '<div id="slide'.$value->stock_id.'" class="slide">
+            <div class="stock-item">
+                <div class="stock-img" ' . (!empty($value->img) ? 'style="background:url(/images/stock/' . $value->img . ');"' : '').'>
+                    <form action="/zayavka-otpravlena" id="formz'.$value->stock_id.'" method="post">
+                        <div class="stock-form">
+                            <div class="stock-input-str-name"><span>Ваше имя:</span><input name="name" id="name'.$value->stock_id.'" class="stock-input-name"></div>
+                            <div class="stock-input-str-phone"><span>Ваш телефон:</span><input name="phone" id="phone'.$value->stock_id.'" class="stock-input-phone"></div>
+                            <div class="stock-submit-str"><input type="submit" value="" class="main-top-form-sub2"></div>
+                            <div id="countdown'.$value->stock_id.'"></div>   
+                            <div class="countdown-str"><span class="day">дней</span><span class="hour">часов</span><span class="min">минут</span><span class="sec">секунд</span></div>
+                        </div>                    
+                    </form>                
+                </div>
+            </div>
+        </div>';
     
     
 }

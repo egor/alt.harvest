@@ -68,7 +68,7 @@
 
 	<header id="header">
 		<hgroup>
-			<h1 class="site_title"><a href="/">ALT admin</a></h1>
+			<h1 class="site_title"><a href="/altadmin/">ALT admin</a></h1>
 			<h2 class="section_title">harvest.zp.ua</h2><div class="btn_view_site"><a href="/">сайт</a></div>
 		</hgroup>
 	</header> <!-- end of header bar -->

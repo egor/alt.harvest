@@ -70,7 +70,12 @@ endif;
             <?php echo $form->labelEx($pages, 'in_last'); ?>
             <?php echo $form->checkBox($pages, 'in_last'); ?>
             <?php echo $form->error($pages, 'in_last'); ?>
-        </fieldset>                                    
+        </fieldset>  
+        <fieldset>
+            <?php echo $form->labelEx($pages, 'like'); ?>
+            <?php echo $form->checkBox($pages, 'like'); ?>
+            <?php echo $form->error($pages, 'like'); ?>
+        </fieldset>
         <fieldset>
             <?php echo $form->labelEx($pages, 'url'); ?>
             <?php echo $form->textField($pages, 'url'); ?>
@@ -81,6 +86,13 @@ endif;
             <?php echo $form->textField($pages, 'date', array('id' => 'datepicker')); ?>
             <?php echo $form->error($pages, 'date'); ?>
         </fieldset>
+        <fieldset>
+            <?php echo $form->labelEx($pages, 'print_date'); ?>
+            <?php echo $form->checkBox($pages, 'print_date'); ?>
+            <?php echo $form->error($pages, 'print_date'); ?>
+        </fieldset>
+
+        
         <fieldset>
             <?php echo $form->labelEx($pages, 'menu_name'); ?>
             <?php echo $form->textField($pages, 'menu_name'); ?>
