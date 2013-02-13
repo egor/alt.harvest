@@ -1232,3 +1232,80 @@ h1.h1-date {
 .pages-list a{
     text-decoration: none;
 }
+.form-back-call{
+    width: 290px;
+    height: 200px;
+    overflow: hidden;
+    z-index: 100;
+    border: solid #828387 1px;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 20px;
+    display: none;
+    background-color: #FFF;
+}
+.form-back-call-subs{
+    display:block; /* Ссылки будут блоками. */
+    width:183px; /* Ширина блока 175 пикселей по ширине нашей "двойной" картинки */
+    height:51px; /* Высота блока 40 - это половина высоты нашей двойной картинки */
+    background:url("/images/site/right-b.jpg"); /* делаем картинку фоном (зная, что будет видна только половина картинки) */
+    border: none;
+    background-color: none;
+    text-decoration: none;
+    margin-left: 99px;
+    margin-bottom: 5px;
+}
+
+
+/* Стиль ссылки при наведённом курсоре */
+.form-back-call-subs:hover {
+    background-position:0 -51px; /* ВСЯ ФИШКА ЗДЕСЬ! сдвигаем фон на 40 пикселей вверх, отрицательным значением background-position, тем самым показываем вторую часть изображения где наша кнопка активна */
+    cursor: pointer;
+}
+.form-back-call-header{
+    font-size: 18px;
+    color:#1304a2;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.form-back-call-name span{
+  color: #636467;
+  font-size: 13px;
+  margin-left: 12px;
+  margin-right: 23px;
+
+}
+.form-back-call-phone span{
+color: #636467;
+font-size: 13px;
+margin-left: 12px;
+margin-right: 4px;
+}
+.name-fci{
+    background: url(/images/site/fci.jpg) no-repeat;
+    width: 161px;
+    height: 32px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+.phone-fci{
+    background: url(/images/site/fci.jpg) no-repeat;
+    width: 161px;
+    height: 32px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+.form-back-call-name{
+    margin-bottom: 5px;
+}
+.form-back-call-phone{
+    margin-bottom: 5px;
+}
+.form-back-call-text{
+    font-size: 14px;
+    color:#636467;
+}

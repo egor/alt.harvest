@@ -6,8 +6,7 @@
  * @version 1.0
  * @package frontEnd
  */
-class SendForm {
-    
+class SendForm {    
     public function sendSmallForm(){
         $email = Yii::app()->email;
         $email->to = SendForm::selectSendEmails();

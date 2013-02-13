@@ -25,6 +25,12 @@
 	$(function(){
 		$("a[href$='jpg']").lightBox();
 	});
+        function backCall(){
+            $('.form-back-call').show();
+        }
+        function backCallClose(){
+            $('.form-back-call').hide();
+        }
     </script>
     
 
@@ -111,11 +117,23 @@
                         <div class="consultant-name"><?php echo SelectDataFromEditFields::selectValue('right_consul_name'); ?></div>                        
                     </div>
                     <div class="right-call">
+                        <div class="form-back-call">
+                            <div class="form-back-call-header"><?php echo SelectDataFromEditFields::selectValue('form_back_call_header'); ?><a href="#" onclick="backCallClose(); return false;">x</a></div>
+                            <form action="/zayavka-otpravlena" method="post" id="formbc">
+                                <div class="form-back-call-name"><span>Ваше имя:</span><input class="name-fci" name="name" id="namebc" /></div>
+                                <div class="form-back-call-phone"><span>Ваш телефон:</span><input class="phone-fci" name="phone" id="phonebc" /></div>
+                                <div class="form-back-call-sub"><input class="form-back-call-subs" type="submit" value="&nbsp;"></div>
+                                <div class="form-back-call-text"><?php echo SelectDataFromEditFields::selectValue('form_back_call_text'); ?></div>
+                            </form>
+                            
+                        </div>
+                            
                         <div class="right-call-header"><?php echo SelectDataFromEditFields::selectValue('right_phone_header'); ?></div>
                         <div class="right-call-phone"><table><tr><td><img class="right-call-phone-ico" src="/images/site/lrft-c-mts.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('right_phone_phone_1'); ?></span></td></table></div>
                         <div class="right-call-phone"><table><tr><td><img class="right-call-phone-ico" src="/images/site/lrft-c-kiyivs.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('right_phone_phone_2'); ?></span></td></tr></table></div>
                         <div class="right-call-phone"><table><tr><td><img class="right-call-phone-ico" src="/images/site/lrft-c-city.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('right_phone_phone_3'); ?></span></td></tr></table></div>
-                        <div class="right-call-but"><a href="#" class="right-call-but-a">&nbsp;</a></div>
+                        <div class="right-call-but"><a href="#" onclick="backCall(); return false;" class="right-call-but-a">&nbsp;</a></div>
+                        
                     </div>
                     <div class="right-video">
                         <div class="right-video-header">    
@@ -210,5 +228,73 @@
         
         
     </script>
+                
+                
+                
+                
+                
+                
+
+
+<script>
+    $(document).ready(function(){                                                
+        if ($("#namebc").val() == 'Введите Ваше имя') {
+            $("#namebc").val('');
+        }
+        if ($("#phonebc").val() == 'Введите Ваш телефон') {
+            $("#phonebc").val('');
+        }
+        $("#formbc").submit(function() {
+            ret = true;
+            n = $("#namebc").val();
+            p = $("#phonebc").val();
+            if (n == '' || n == 'Введите Ваше имя') {
+                $("#namebc").val('Введите Ваше имя');
+                $("#namebc").css('color', 'red');
+                ret = false;
+            }
+            if (p == '' || p == 'Введите Ваш телефон') {
+                $("#phonebc").val('Введите Ваш телефон');
+                $("#phonebc").css('color', 'red');
+                ret = false;
+            }
+            return ret;
+        })
+                        
+        $("#namev").click(function() {
+            if ($("#namebc").val() == 'Введите Ваше имя') {
+                $("#namebc").val('');
+                $("#namebc").css('color', 'black');
+            }
+        })
+                        
+        $("#phonebc").click(function() {
+            if ($("#phonebc").val() == 'Введите Ваш телефон') {
+                $("#phonebc").val('');
+                $("#phonebc").css('color', 'black');
+            }
+        })
+                        
+        $("#phonebc").keydown(function(event) {
+            // Разрешаем: backspace, delete, tab и escape
+            if (event.keyCode == 13 || event.keyCode == 32 || event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 ||
+                // Разрешаем: Ctrl+A
+            (event.keyCode == 65 && event.ctrlKey === true) ||
+                // Разрешаем: home, end, влево, вправо
+            (event.keyCode >= 35 && event.keyCode <= 39)) {
+                // Ничего не делаем
+                return;
+            }
+            else {
+                // Обеждаемся, что это цифра, и останавливаем событие keypress
+                if ((event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105 )) {
+                    event.preventDefault();
+                }  
+            }
+        });
+                        
+    })
+</script>    
+                
  </body>
 </html>

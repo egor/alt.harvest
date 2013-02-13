@@ -18,7 +18,7 @@ foreach ($model as $value) {
     $z++;
 
     echo '<div class="reviews-item">';
-    echo '<div class="reviews-item-date">' . date('d.m.Y', $value->date) . ' | &nbsp;</div><h2>' . $value->menu_name . '</h2>';
+    echo '<a href="#" name="'.$value->reviews_id.'"></a><div class="reviews-item-date">' . date('d.m.Y', $value->date) . ' | &nbsp;</div><h2>' . $value->menu_name . '</h2>';
     echo '<br clear="all"/>
         <div class="reviews-item-short-text">' . (!empty($value->img) ? '<a href="/images/reviews/big/' . $value->img_big . '"><img class="reviews-list-img" src="/images/reviews/' . $value->img . '" alt="' . $value->img_alt . '" title="' . $value->img_title . '" /></a>' : '') . 
             (!empty($value->link_to_video) ? '<div class="reviews_video">'.$value->link_to_video.'</div>' : '') .
