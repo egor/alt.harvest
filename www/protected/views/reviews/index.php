@@ -33,6 +33,7 @@ foreach ($model as $value) {
     }
 }
 echo '</div>';
+if ($countPage>1) {
 ?>
 <div class="paginator" id="paginator_page">
     <?php
@@ -52,3 +53,8 @@ echo '</div>';
                     "<?php echo '/' . $reviewsData->url . '/'; ?>"//"http://www.yourwebsite.com/pages/" // url страниц
                 );
 </script>
+<?php
+} else {
+    echo '<br/>';
+}
+?>

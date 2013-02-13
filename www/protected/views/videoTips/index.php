@@ -33,6 +33,9 @@ foreach ($model as $value) {
 }
 ?>
 </div>
+<?php
+if ($countPage>1) {
+?>
 <div class="paginator" id="paginator_page">
 <?php
 $this->widget('CLinkPager', array(
@@ -50,3 +53,8 @@ paginator_example = new Paginator(
     "<?php echo '/' . $videoTipsData->url . '/'; ?>"// url страниц
 );
 </script>
+<?php
+} else {
+    echo '<br/>';
+}
+?>

@@ -1240,7 +1240,7 @@ h1.h1-date {
     border: solid #828387 1px;
     position: absolute;
     margin-left: -90px;
-    margin-top: 20px;
+    margin-top: 31px;
     display: none;
     background-color: #FFF;
 }
@@ -1300,12 +1300,24 @@ margin-right: 4px;
     padding-right: 12px;
 }
 .form-back-call-name{
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 .form-back-call-phone{
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 .form-back-call-text{
     font-size: 14px;
     color:#636467;
+    margin-left: 10px;
+}
+.form-back-call-text span{
+    font-size: 13px;
+}
+.form-back-call-header a{
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    font-weight: normal;
+    color:#636467;
+    margin-right: 10px;
 }

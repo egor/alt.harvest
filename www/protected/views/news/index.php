@@ -27,6 +27,7 @@ foreach ($model as $value) {
     }
 }
 echo '</div>';
+if ($countPage>1) {
 ?>
 <div class="paginator" id="paginator_page">
 <?php
@@ -47,3 +48,8 @@ $this->widget('CLinkPager', array(
 		"<?php echo '/'.$newsData->url.'/'; ?>"//"http://www.yourwebsite.com/pages/" // url страниц
 	);
 </script>
+<?php
+} else {
+    echo '<br/>';
+}
+?>

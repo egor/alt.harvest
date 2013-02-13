@@ -52,9 +52,6 @@ if ($countPage>1) {
     
     ?>
 </div>
-<?php
-}
-?>
 <script type="text/javascript">
     paginator_example = new Paginator(
     "paginator_page", // id контейнера, куда ляжет пагинатор
@@ -64,7 +61,11 @@ if ($countPage>1) {
                     "<?php echo '/' . $stockData->url . '/'; ?>"//"http://www.yourwebsite.com/pages/" // url страниц
                 );
 </script>
-
+<?php
+} else {
+    echo '<br/>';
+}
+?>
 
 <div id="countdown"></div>
 

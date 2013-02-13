@@ -261,7 +261,7 @@
             return ret;
         })
                         
-        $("#namev").click(function() {
+        $("#namebc").click(function() {
             if ($("#namebc").val() == 'Введите Ваше имя') {
                 $("#namebc").val('');
                 $("#namebc").css('color', 'black');
