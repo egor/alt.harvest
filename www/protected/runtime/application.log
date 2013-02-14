@@ -317,3 +317,161 @@ Stack trace:
 REQUEST_URI=/js/altadmin/json2/json2.js
 HTTP_REFERER=http://okna.local/altadmin/pages/edit/97
 ---
+2013/02/13 17:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/13 17:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/40
+---
+2013/02/13 17:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/40
+---
+2013/02/13 23:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/13 23:27:30 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (54)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/13 23:27:30 [warning] [application] Failed to set unsafe attribute "delpic_big" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (54)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/13 23:28:19 [warning] [application] Failed to set unsafe attribute "delpic" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (54)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/13 23:28:19 [warning] [application] Failed to set unsafe attribute "delpic_big" of "Reviews".
+in Z:\home\okna.local\www\protected\modules\altadmin\controllers\ReviewsController.php (54)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/13 23:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/13 23:35:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/13 23:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/84
+---
+2013/02/13 23:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/84
+---
+2013/02/13 23:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/84
+---
+2013/02/13 23:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/84
+---
+2013/02/14 00:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/14 13:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 13:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 13:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 13:01:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 13:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 13:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

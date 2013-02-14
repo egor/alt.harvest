@@ -140,7 +140,7 @@ a img{
     text-align: center;
 }
 .portlet-content ul#headerMenuList li.deli{
-    display: inline-table;
+    /*display: inline-table;
     width: 82px;
     text-align: center;
     background: url(/images/site/header-dili2.jpg) no-repeat center;
@@ -148,14 +148,20 @@ a img{
     padding: 0;
     padding-top: 30px;
     vertical-align: top;
-    
+    */
+    background: url("/images/site/header-dili2.jpg") no-repeat scroll center center transparent;
+display: inline-table;
+padding: 30px 0 0;
+text-align: center;
+vertical-align: top;
+width: 77px;
 }
 
 .portlet-content ul#headerMenuList li.first{
-    
+    margin-left: 10px;
 }
 .portlet-content ul#headerMenuList li.last{
-    
+    margin-right: 15px;
     
 }
 .portlet-content ul#headerMenuList li a{
@@ -302,6 +308,10 @@ margin-bottom: 10px;
 .right-last-re a:hover.right-reviews-link-all{
     text-decoration: underline;
 
+}
+.reviews_img{
+    float: left;
+    margin-right: 20px;
 }
 .right-call-but-a{
     display:block; /* Ссылки будут блоками. */
@@ -1028,7 +1038,7 @@ h1{
 }
 .stock-input-phone{
     background: url(/images/site/stock-input.png) no-repeat;
-    width: 145px;
+    width: 147px;
     height: 33px;
     border: none;
     padding-left: 10px;
@@ -1320,4 +1330,52 @@ margin-right: 4px;
     font-weight: normal;
     color:#636467;
     margin-right: 10px;
+}
+.bgoo{
+    display: inline-table;
+    overflow: hidden;
+    width: 100px;
+    margin-left: 0px;
+}
+.btw{
+    display: inline-table;
+    overflow: hidden;
+    width: 80px;
+    margin-left: 7px;
+}
+.bok{
+    display: inline-table;
+    overflow: hidden;
+    width: 100px;
+    margin-left: 7px;
+}
+.bfb{
+    display: inline-table;
+    overflow: hidden;
+    width: 100px;
+    margin-left: 7px;
+}
+.bvk{
+    width: 100px;
+    display: inline-table;
+    overflow: hidden; 
+    
+}
+#vk_like{
+    width: 140px!important;
+}
+span.btw iframe.twitter-share-button{
+    width: 86px!important;
+}
+.soc-text{
+    display: inline-table;
+    width: 100%;
+    color:#969698;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.tsoc{
+
+    margin-bottom: 5px;
 }

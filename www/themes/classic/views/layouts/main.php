@@ -33,6 +33,11 @@
         }
     </script>
     
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?78"></script>
+<script type="text/javascript">
+  VK.init({apiId: 3426643, onlyWidgets: true});
+</script>
 
         
     </head>

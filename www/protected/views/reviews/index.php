@@ -20,7 +20,7 @@ foreach ($model as $value) {
     echo '<div class="reviews-item">';
     echo '<a href="#" name="'.$value->reviews_id.'"></a><div class="reviews-item-date">' . date('d.m.Y', $value->date) . ' | &nbsp;</div><h2>' . $value->menu_name . '</h2>';
     echo '<br clear="all"/>
-        <div class="reviews-item-short-text">' . (!empty($value->img) ? '<a href="/images/reviews/big/' . $value->img_big . '"><img class="reviews-list-img" src="/images/reviews/' . $value->img . '" alt="' . $value->img_alt . '" title="' . $value->img_title . '" /></a>' : '') . 
+        <div class="reviews-item-short-text">' . (!empty($value->img) ? '<div class="reviews_img"><a href="/images/reviews/big/' . $value->img_big . '"><img class="reviews-list-img" src="/images/reviews/' . $value->img . '" alt="' . $value->img_alt . '" title="' . $value->img_title . '" /></a></div>' : '') . 
             (!empty($value->link_to_video) ? '<div class="reviews_video">'.$value->link_to_video.'</div>' : '') .
             $value->text . '</div><br clear="all" />';
     echo '
