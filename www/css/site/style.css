@@ -918,11 +918,11 @@ html body div.content div.site-content div#content div.news_list div.news-item h
     text-decoration: none;
 }
 #content ul li a{
-    color: #636467;
+    color: #3b3b3b;
     text-decoration: none;
 }
 #content ul li a:hover{
-    color: #636467;
+    /*color: #636467;*/
     text-decoration: underline;
 }
 
@@ -1200,7 +1200,9 @@ cursor: pointer;
     text-align: right;
     width: 528px;
     display: inline-tablel;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
+    margin-bottom: 20px;
+    margin-top: -20px;
 
 }
 #leftMenuList li.inner ul li.active{

@@ -27,7 +27,7 @@ if ($model->print_top_form == 1) {
 <h1 <?php echo ($model->print_date == 1 ? 'class="h1-date"' : '') ?>><?php echo $model->h1; ?></h1>
 <?php echo ($model->print_date == 1 ? '<span class="main-date">' . date('d.m.Y', $model->date) . '</span>' : ''); ?>
 <?php
-if ($_GET['page']<=1){
+if (isset($_GET['page']) && $_GET['page']<=1){
     echo $model->text;
 }
 if ($model->print_footer_form == 1) {

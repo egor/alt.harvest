@@ -126,14 +126,14 @@ class SiteUrlRule extends CBaseUrlRule
                 // url: /5
 
                 $cou = count($url);
-                //echo $url[$cou-2];die;
-                if ($url[$cou - 2] == 'page' && $url[$cou - 1] > 1) {
-                    if (!$this->badPaginationPage($url[$cou - 1], $model)) {
+                
+                if (isset($url[($cou - 2)]) && isset($url[($cou - 1)]) && $url[($cou - 2)] == 'page' && $url[($cou - 1)] > 1) {
+                    if (!$this->badPaginationPage($url[($cou - 1)], $model)) {
                         return 'pages/404';
                     }
-                    $_GET['page'] = $url[$cou - 1];
-                    unset($url[$cou - 2]);
-                    unset($url[$cou - 1]);
+                    $_GET['page'] = $url[($cou - 1)];
+                    unset($url[($cou - 2)]);
+                    unset($url[($cou - 1)]);
                     $cou = count($url);
                 }
                 $model = Pages::model()->find('url="' . end($url) . '"');
