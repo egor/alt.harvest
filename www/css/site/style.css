@@ -1198,7 +1198,8 @@ cursor: pointer;
 }
 .more-i{
     text-align: right;
-    width: 528px;
+    /*width: 528px;*/
+    width: 260px;
     display: inline-tablel;
     /*margin-top: 5px;*/
     margin-bottom: 20px;

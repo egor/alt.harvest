@@ -39,7 +39,7 @@
   VK.init({apiId: 3426643, onlyWidgets: true});
 </script>
 
-        
+ <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />       
     </head>
 
     <body>
