@@ -16,10 +16,16 @@ class SendForm
         /* получатели */
         $to = SendForm::selectSendEmails();
         
-        
-$subject="=?utf-8?B?". base64_encode("Заявка с сайта " . Yii::app()->request->serverName). "?=";
-$header="From: robot@" . Yii::app()->request->serverName; 
-$header.="\nContent-type: text/html; charset=\"utf-8\"";
+
+   $from = 'robot@' . Yii::app()->request->serverName; 
+   $subject = 'Заявка с сайта ' . Yii::app()->request->serverName; 
+   $subject = '=?utf-8?b?'. base64_encode($subject) .'?='; 
+   $headers = "Content-type: text/html; charset=\"utf-8\"\r\n"; 
+   $headers .= "From: <". $from .">\r\n"; 
+   $headers .= "MIME-Version: 1.0\r\n"; 
+   $headers .= "Date: ". date('D, d M Y h:i:s O') ."\r\n"; 
+   $message = 'Вот такое вот письмо'; 
+   
 $message = " <html>
                 <head>
                     <title>Заявка с сайта " . Yii::app()->request->serverName . "</title>
@@ -32,7 +38,8 @@ $message = " <html>
                     </table>
                 </body>
             </html>";
-mail($to, $subject, $message, $header);
+mail($to, $subject, $message, $headers, '-f'. $from );
+
 
     }
 

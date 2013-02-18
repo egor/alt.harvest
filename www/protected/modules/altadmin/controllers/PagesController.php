@@ -199,7 +199,8 @@ class PagesController extends Controller {
         $id == Yii::app()->params['modules']['sitemap'] ||
         $id == Yii::app()->params['modules']['videoTips'] ||
         $id == Yii::app()->params['modules']['stock'] ||
-        $id == Yii::app()->params['modules']['404']
+        $id == Yii::app()->params['modules']['404'] ||
+        $id == Yii::app()->params['modules']['contacts']
         ) {
             echo json_encode(array('success' => false, 'message' => 'Эту страницу нельзя удалять'));
             exit;

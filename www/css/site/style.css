@@ -1379,3 +1379,53 @@ span.btw iframe.twitter-share-button{
 
     margin-bottom: 5px;
 }
+
+/*контакты*/
+.portlet-content ul#contactsMenuList{
+    display: inline-table;
+    width: 532px;
+    margin-bottom: 15px;
+    
+}
+.portlet-content ul#contactsMenuList li {
+    display: inline-table;
+    font-size: 14px;
+    font-weight: bold;
+    color:#3b3b3b;
+    margin: 0;
+}
+.portlet-content ul#contactsMenuList li.active{
+    color:#3b3b3b;
+    text-decoration: underline;
+}
+.portlet-content ul#contactsMenuList li.deli{
+    width: 60px;
+}
+.portlet-content ul#contactsMenuList li.first{
+    text-align: left;
+}
+.portlet-content ul#contactsMenuList li.last{
+    text-align: right;
+    float: right;
+}
+.contact-list div.item-short-text{
+    font-size: 14px;
+    color:#000000;
+    line-height: 24px;
+}
+.contact-list div.more-i a.more{
+    font-size: 13px;
+    color:#636467;
+    text-decoration: none;
+}
+.contact-list div.more-i a:hover.more{
+    text-decoration: underline;
+}
+h1.contact{
+    margin-bottom: 15px;
+}
+.contact-page{
+        font-size: 14px;
+    color:#000000;
+    line-height: 24px;
+}

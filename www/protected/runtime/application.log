@@ -475,3 +475,1000 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/02/16 10:44:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/16 10:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 10:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 10:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/36
+---
+2013/02/16 10:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/36
+---
+2013/02/16 10:50:39 [error] [php] Invalid argument supplied for foreach() (Z:\home\okna.local\www\protected\views\pages\contacts.php:55)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CController.php(869): PagesController->renderFile()
+#1 Z:\home\okna.local\www\framework\web\CController.php(782): PagesController->renderPartial()
+#2 Z:\home\okna.local\www\protected\controllers\PagesController.php(50): PagesController->render()
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts()
+#4 unknown(0): PagesController->actionDetail()
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): PagesController->runAction()
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): PagesController->runActionWithFilters()
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): PagesController->run()
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/kontaktyi/
+in Z:\home\okna.local\www\protected\views\pages\contacts.php (55)
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (50)
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (36)
+2013/02/16 10:58:26 [error] [exception.CException] exception 'CException' with message 'HeaderContactsMenuPortlet and its behaviors do not have a method or closure named "getCommandBuilder".' in Z:\home\okna.local\www\framework\base\CComponent.php:265
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1415): CComponent->__call('getCommandBuild...', Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1415): HeaderContactsMenuPortlet->getCommandBuilder()
+#2 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(21): CActiveRecord->findAll('root:=root AND ...', Array)
+#3 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#4 Z:\home\okna.local\www\framework\web\CBaseController.php(173): CPortlet->run()
+#5 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): CBaseController->widget('HeaderContactsM...')
+#6 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require('Z:\home\okna.lo...')
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\okna.lo...', Array, true)
+#8 Z:\home\okna.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\okna.lo...', Array, true)
+#9 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('contacts', Array, true)
+#10 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): CController->render('contacts', Array)
+#11 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts(Object(Pages))
+#12 [internal function]: PagesController->actionDetail('36')
+#13 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#14 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#15 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#19 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#20 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#22 {main}
+REQUEST_URI=/kontaktyi/
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 10:59:00 [error] [exception.CException] exception 'CException' with message 'HeaderContactsMenuPortlet and its behaviors do not have a method or closure named "getCommandBuilder".' in Z:\home\okna.local\www\framework\base\CComponent.php:265
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1415): CComponent->__call('getCommandBuild...', Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1415): HeaderContactsMenuPortlet->getCommandBuilder()
+#2 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(21): CActiveRecord->findAll('root:=root AND ...', Array)
+#3 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#4 Z:\home\okna.local\www\framework\web\CBaseController.php(173): CPortlet->run()
+#5 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): CBaseController->widget('HeaderContactsM...')
+#6 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require('Z:\home\okna.lo...')
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\okna.lo...', Array, true)
+#8 Z:\home\okna.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\okna.lo...', Array, true)
+#9 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('contacts', Array, true)
+#10 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): CController->render('contacts', Array)
+#11 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts(Object(Pages))
+#12 [internal function]: PagesController->actionDetail('36')
+#13 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#14 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#15 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#19 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#20 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#22 {main}
+REQUEST_URI=/kontaktyi/
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 10:59:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE root:=root AND level=:level.
+in Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php (21)
+in Z:\home\okna.local\www\protected\views\pages\contacts.php (7)
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (51)
+2013/02/16 10:59:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE root:=root AND level=:level' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(21): CActiveRecord->findAll('root:=root AND ...', Array)
+#4 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#5 Z:\home\okna.local\www\framework\web\CBaseController.php(173): CPortlet->run()
+#6 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): CBaseController->widget('HeaderContactsM...')
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require('Z:\home\okna.lo...')
+#8 Z:\home\okna.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\okna.lo...', Array, true)
+#9 Z:\home\okna.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\okna.lo...', Array, true)
+#10 Z:\home\okna.local\www\framework\web\CController.php(782): CController->renderPartial('contacts', Array, true)
+#11 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): CController->render('contacts', Array)
+#12 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts(Object(Pages))
+#13 [internal function]: PagesController->actionDetail('36')
+#14 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#15 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#16 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#20 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#21 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#23 {main}
+REQUEST_URI=/kontaktyi/
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 11:00:06 [error] [php] Invalid argument supplied for foreach() (Z:\home\okna.local\www\framework\zii\widgets\CMenu.php:260)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CBaseController.php(172): HeaderContactsMenuPortlet->createWidget()
+#1 Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php(6): HeaderContactsMenuPortlet->widget()
+#2 Z:\home\okna.local\www\framework\web\CBaseController.php(130): require()
+#3 Z:\home\okna.local\www\framework\web\CBaseController.php(95): HeaderContactsMenuPortlet->renderInternal()
+#4 Z:\home\okna.local\www\framework\web\widgets\CWidget.php(243): HeaderContactsMenuPortlet->renderFile()
+#5 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(46): HeaderContactsMenuPortlet->render()
+#6 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(173): HeaderContactsMenuPortlet->run()
+#8 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): PagesController->widget()
+#9 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require()
+#10 Z:\home\okna.local\www\framework\web\CBaseController.php(95): PagesController->renderInternal()
+#11 Z:\home\okna.local\www\framework\web\CController.php(869): PagesController->renderFile()
+#12 Z:\home\okna.local\www\framework\web\CController.php(782): PagesController->renderPartial()
+#13 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): PagesController->render()
+#14 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts()
+#15 unknown(0): PagesController->actionDetail()
+#16 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#17 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\home\okna.local\www\framework\web\CController.php(286): PagesController->runAction()
+#20 Z:\home\okna.local\www\framework\web\CController.php(265): PagesController->runActionWithFilters()
+#21 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): PagesController->run()
+#22 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/kontaktyi/
+in Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php (6)
+in Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php (46)
+in Z:\home\okna.local\www\protected\views\pages\contacts.php (7)
+2013/02/16 11:00:36 [error] [php] Invalid argument supplied for foreach() (Z:\home\okna.local\www\framework\zii\widgets\CMenu.php:260)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CBaseController.php(172): HeaderContactsMenuPortlet->createWidget()
+#1 Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php(6): HeaderContactsMenuPortlet->widget()
+#2 Z:\home\okna.local\www\framework\web\CBaseController.php(130): require()
+#3 Z:\home\okna.local\www\framework\web\CBaseController.php(95): HeaderContactsMenuPortlet->renderInternal()
+#4 Z:\home\okna.local\www\framework\web\widgets\CWidget.php(243): HeaderContactsMenuPortlet->renderFile()
+#5 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(46): HeaderContactsMenuPortlet->render()
+#6 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(173): HeaderContactsMenuPortlet->run()
+#8 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): PagesController->widget()
+#9 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require()
+#10 Z:\home\okna.local\www\framework\web\CBaseController.php(95): PagesController->renderInternal()
+#11 Z:\home\okna.local\www\framework\web\CController.php(869): PagesController->renderFile()
+#12 Z:\home\okna.local\www\framework\web\CController.php(782): PagesController->renderPartial()
+#13 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): PagesController->render()
+#14 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts()
+#15 unknown(0): PagesController->actionDetail()
+#16 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#17 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\home\okna.local\www\framework\web\CController.php(286): PagesController->runAction()
+#20 Z:\home\okna.local\www\framework\web\CController.php(265): PagesController->runActionWithFilters()
+#21 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): PagesController->run()
+#22 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/kontaktyi/
+in Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php (6)
+in Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php (46)
+in Z:\home\okna.local\www\protected\views\pages\contacts.php (7)
+2013/02/16 11:01:34 [error] [php] Invalid argument supplied for foreach() (Z:\home\okna.local\www\framework\zii\widgets\CMenu.php:260)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CBaseController.php(172): HeaderContactsMenuPortlet->createWidget()
+#1 Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php(6): HeaderContactsMenuPortlet->widget()
+#2 Z:\home\okna.local\www\framework\web\CBaseController.php(130): require()
+#3 Z:\home\okna.local\www\framework\web\CBaseController.php(95): HeaderContactsMenuPortlet->renderInternal()
+#4 Z:\home\okna.local\www\framework\web\widgets\CWidget.php(243): HeaderContactsMenuPortlet->renderFile()
+#5 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(46): HeaderContactsMenuPortlet->render()
+#6 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(173): HeaderContactsMenuPortlet->run()
+#8 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): PagesController->widget()
+#9 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require()
+#10 Z:\home\okna.local\www\framework\web\CBaseController.php(95): PagesController->renderInternal()
+#11 Z:\home\okna.local\www\framework\web\CController.php(869): PagesController->renderFile()
+#12 Z:\home\okna.local\www\framework\web\CController.php(782): PagesController->renderPartial()
+#13 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): PagesController->render()
+#14 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts()
+#15 unknown(0): PagesController->actionDetail()
+#16 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#17 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\home\okna.local\www\framework\web\CController.php(286): PagesController->runAction()
+#20 Z:\home\okna.local\www\framework\web\CController.php(265): PagesController->runActionWithFilters()
+#21 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): PagesController->run()
+#22 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/kontaktyi/
+in Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php (6)
+in Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php (46)
+in Z:\home\okna.local\www\protected\views\pages\contacts.php (7)
+2013/02/16 11:01:36 [error] [php] Invalid argument supplied for foreach() (Z:\home\okna.local\www\framework\zii\widgets\CMenu.php:260)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CBaseController.php(172): HeaderContactsMenuPortlet->createWidget()
+#1 Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php(6): HeaderContactsMenuPortlet->widget()
+#2 Z:\home\okna.local\www\framework\web\CBaseController.php(130): require()
+#3 Z:\home\okna.local\www\framework\web\CBaseController.php(95): HeaderContactsMenuPortlet->renderInternal()
+#4 Z:\home\okna.local\www\framework\web\widgets\CWidget.php(243): HeaderContactsMenuPortlet->renderFile()
+#5 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(46): HeaderContactsMenuPortlet->render()
+#6 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(173): HeaderContactsMenuPortlet->run()
+#8 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): PagesController->widget()
+#9 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require()
+#10 Z:\home\okna.local\www\framework\web\CBaseController.php(95): PagesController->renderInternal()
+#11 Z:\home\okna.local\www\framework\web\CController.php(869): PagesController->renderFile()
+#12 Z:\home\okna.local\www\framework\web\CController.php(782): PagesController->renderPartial()
+#13 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): PagesController->render()
+#14 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts()
+#15 unknown(0): PagesController->actionDetail()
+#16 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#17 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\home\okna.local\www\framework\web\CController.php(286): PagesController->runAction()
+#20 Z:\home\okna.local\www\framework\web\CController.php(265): PagesController->runActionWithFilters()
+#21 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): PagesController->run()
+#22 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/kontaktyi/
+in Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php (6)
+in Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php (46)
+in Z:\home\okna.local\www\protected\views\pages\contacts.php (7)
+2013/02/16 11:02:24 [error] [php] Invalid argument supplied for foreach() (Z:\home\okna.local\www\framework\zii\widgets\CMenu.php:260)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CBaseController.php(172): HeaderContactsMenuPortlet->createWidget()
+#1 Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php(6): HeaderContactsMenuPortlet->widget()
+#2 Z:\home\okna.local\www\framework\web\CBaseController.php(130): require()
+#3 Z:\home\okna.local\www\framework\web\CBaseController.php(95): HeaderContactsMenuPortlet->renderInternal()
+#4 Z:\home\okna.local\www\framework\web\widgets\CWidget.php(243): HeaderContactsMenuPortlet->renderFile()
+#5 Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php(46): HeaderContactsMenuPortlet->render()
+#6 Z:\home\okna.local\www\framework\zii\widgets\CPortlet.php(94): HeaderContactsMenuPortlet->renderContent()
+#7 Z:\home\okna.local\www\framework\web\CBaseController.php(173): HeaderContactsMenuPortlet->run()
+#8 Z:\home\okna.local\www\protected\views\pages\contacts.php(7): PagesController->widget()
+#9 Z:\home\okna.local\www\framework\web\CBaseController.php(126): require()
+#10 Z:\home\okna.local\www\framework\web\CBaseController.php(95): PagesController->renderInternal()
+#11 Z:\home\okna.local\www\framework\web\CController.php(869): PagesController->renderFile()
+#12 Z:\home\okna.local\www\framework\web\CController.php(782): PagesController->renderPartial()
+#13 Z:\home\okna.local\www\protected\controllers\PagesController.php(51): PagesController->render()
+#14 Z:\home\okna.local\www\protected\controllers\PagesController.php(36): PagesController->contacts()
+#15 unknown(0): PagesController->actionDetail()
+#16 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#17 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\home\okna.local\www\framework\web\CController.php(286): PagesController->runAction()
+#20 Z:\home\okna.local\www\framework\web\CController.php(265): PagesController->runActionWithFilters()
+#21 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): PagesController->run()
+#22 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/kontaktyi/
+in Z:\home\okna.local\www\protected\components\views\headerContactsMenuPortlet.php (6)
+in Z:\home\okna.local\www\protected\components\HeaderContactsMenuPortlet.php (46)
+in Z:\home\okna.local\www\protected\views\pages\contacts.php (7)
+2013/02/16 11:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 11:22:45 [error] [exception.CException] exception 'CException' with message 'Property "Pages.1" is not defined.' in Z:\home\okna.local\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(143): CComponent->__get('1')
+#1 Z:\home\okna.local\www\framework\base\CModel.php(595): CActiveRecord->__get('1')
+#2 Z:\home\okna.local\www\protected\extensions\nestedBehavior\NestedSetBehavior.php(119): CModel->offsetGet(1)
+#3 [internal function]: NestedSetBehavior->rootId()
+#4 Z:\home\okna.local\www\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(225): CComponent->__call('rootId', Array)
+#6 Z:\home\okna.local\www\protected\controllers\PagesController.php(37): CActiveRecord->__call('rootId', Array)
+#7 Z:\home\okna.local\www\protected\controllers\PagesController.php(37): Pages->rootId()
+#8 [internal function]: PagesController->actionDetail('106')
+#9 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#11 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#15 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#16 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#18 {main}
+REQUEST_URI=/kontaktyi/volnyansk/
+HTTP_REFERER=http://okna.local/kontaktyi
+---
+2013/02/16 11:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/105
+---
+2013/02/16 11:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 11:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 11:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 11:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 11:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/110
+---
+2013/02/16 11:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/16 11:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/111
+---
+2013/02/16 11:31:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/
+---
+2013/02/16 11:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/16 11:42:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/16 11:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/16 12:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 12:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:17:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:17:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:21:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 12:21:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:21:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:21:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:26:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:27:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 12:28:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/109
+---
+2013/02/16 16:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "altadmn".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('altadmn')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/altadmn
+---
+2013/02/16 16:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/16 16:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 16:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 16:30:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/116
+---
+2013/02/16 16:30:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/116
+---
+2013/02/16 16:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/settings
+---
+2013/02/16 16:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages
+---
+2013/02/16 16:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/112
+---
+2013/02/16 16:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/altadmin/json2/json2.js".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('js/altadmin/jso...')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/altadmin/json2/json2.js
+HTTP_REFERER=http://okna.local/altadmin/pages/edit/112
+---
+2013/02/16 16:41:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (72)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 16:41:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(72): CActiveRecord->findAll('visibility=:vis...', Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 16:42:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (72)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 16:42:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(72): CActiveRecord->findAll('visibility=:vis...', Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 16:42:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (73)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 16:42:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(73): CActiveRecord->findAll('visibility=:vis...', Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 16:42:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (73)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 16:42:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=:visibility LIMIT 0, 2) ORDER BY `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(73): CActiveRecord->findAll('visibility=:vis...', Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 16:42:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=1 LIMIT 0, 2) ORDER BY `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (72)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 16:42:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=1 LIMIT 0, 2) ORDER BY `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(72): CActiveRecord->findAll('visibility=1 LI...')
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 16:43:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=1 LIMIT 0, 2) ORDER BY `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (72)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 16:43:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp1)) AND (visibility=1 LIMIT 0, 2) ORDER BY `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(72): CActiveRecord->findAll('visibility=1 LI...')
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa
+HTTP_REFERER=http://okna.local/
+---
+2013/02/16 20:45:49 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\okna.local\www\protected\components\SiteUrlRule.php:119) (Z:\home\okna.local\www\protected\views\pages\404.php:2)
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CBaseController.php(95): PagesController->renderInternal()
+#1 Z:\home\okna.local\www\framework\web\CController.php(869): PagesController->renderFile()
+#2 Z:\home\okna.local\www\framework\web\CController.php(782): PagesController->renderPartial()
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(101): PagesController->render()
+#4 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(49): PagesController->action404()
+#5 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 Z:\home\okna.local\www\framework\web\CController.php(286): PagesController->runAction()
+#7 Z:\home\okna.local\www\framework\web\CController.php(265): PagesController->runActionWithFilters()
+#8 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): PagesController->run()
+#9 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 Z:\home\okna.local\www\index.php(12): CWebApplication->run()
+REQUEST_URI=/novaya_stranitsa/page/2
+in Z:\home\okna.local\www\protected\views\pages\404.php (2)
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (101)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 20:53:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LOMIT 0,2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LOMIT 0,2) ORDER BY lft, `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (83)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 20:53:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LOMIT 0,2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LOMIT 0,2) ORDER BY lft, `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(83): CActiveRecord->findAll(Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa/
+HTTP_REFERER=http://okna.local/novaya_stranitsa/page/2
+---
+2013/02/16 20:53:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LIMIT 0,2) ORDER BY lft, `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (83)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 20:53:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LIMIT 0,2) ORDER BY lft, `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(83): CActiveRecord->findAll(Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa/
+HTTP_REFERER=http://okna.local/novaya_stranitsa/page/2
+---
+2013/02/16 20:53:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0 2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LIMIT 0 2) ORDER BY lft, `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (83)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 20:53:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0 2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LIMIT 0 2) ORDER BY lft, `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(83): CActiveRecord->findAll(Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa/
+HTTP_REFERER=http://okna.local/novaya_stranitsa/page/2
+---
+2013/02/16 20:53:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LIMIT 2) ORDER BY lft, `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (83)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 20:53:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 LIMIT 2) ORDER BY lft, `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(83): CActiveRecord->findAll(Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa/
+HTTP_REFERER=http://okna.local/novaya_stranitsa/page/2
+---
+2013/02/16 20:53:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY lft LIMIT 2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 ORDER BY lft LIMIT 2) ORDER BY lft, `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (83)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 20:53:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY lft LIMIT 2) ORDER BY lft, `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 ORDER BY lft LIMIT 2) ORDER BY lft, `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(83): CActiveRecord->findAll(Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa/
+HTTP_REFERER=http://okna.local/novaya_stranitsa/page/2
+---
+2013/02/16 20:53:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY lft LIMIT 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 ORDER BY lft LIMIT 2) ORDER BY `t`.`lft`.
+in Z:\home\okna.local\www\protected\controllers\PagesController.php (83)
+in Z:\home\okna.local\www\index.php (12)
+2013/02/16 20:53:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY lft LIMIT 2) ORDER BY `t`.`lft`' at line 1. The SQL statement executed was: SELECT * FROM `pages` `t` WHERE (((`t`.`lft`>2 AND `t`.`rgt`<11) AND (`t`.`level`<=3)) AND (`t`.`root`=:ycp3)) AND (visibility=1 ORDER BY lft LIMIT 2) ORDER BY `t`.`lft`' in Z:\home\okna.local\www\framework\db\CDbCommand.php:541
+Stack trace:
+#0 Z:\home\okna.local\www\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 Z:\home\okna.local\www\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\okna.local\www\protected\controllers\PagesController.php(83): CActiveRecord->findAll(Array)
+#4 [internal function]: PagesController->actionDetail('84')
+#5 Z:\home\okna.local\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 Z:\home\okna.local\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#7 Z:\home\okna.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\okna.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\okna.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\okna.local\www\framework\web\CWebApplication.php(282): CController->run('detail')
+#11 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/detail/id...')
+#12 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#14 {main}
+REQUEST_URI=/novaya_stranitsa/
+HTTP_REFERER=http://okna.local/novaya_stranitsa/page/2
+---
+2013/02/16 20:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page/view".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/view')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/page/2
+---
+2013/02/18 02:05:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\okna.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\okna.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\okna.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\okna.local\www\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
