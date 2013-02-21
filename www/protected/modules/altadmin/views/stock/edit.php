@@ -64,7 +64,7 @@ if (Yii::app()->user->hasFlash('err')){
             <?php echo $form->textField($model, 'menu_name'); ?>
             <?php echo $form->error($model, 'menu_name'); ?>
             <div class="clear"></div>
-        </fieldset>
+        </fieldset>        
         <fieldset>   
             <?php echo $form->labelEx($model, 'short_text'); ?>
             <br /><br />
@@ -72,6 +72,12 @@ if (Yii::app()->user->hasFlash('err')){
             <br /><br />
             <?php echo $form->error($model, 'short_text'); ?>
         </fieldset>
+        <fieldset>
+            <?php echo $form->labelEx($model, 'remark'); ?>
+            <?php echo $form->textField($model, 'remark'); ?>
+            <?php echo $form->error($model, 'remark'); ?>
+            <div class="clear"></div>
+        </fieldset>        
         <fieldset>
             <?php echo $form->labelEx($model, 'img'); ?><br/><br/>
             <p>&nbsp;&nbsp;&nbsp;<?php echo $form->fileField($model, 'img'); ?></p>

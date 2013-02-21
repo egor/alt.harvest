@@ -44,12 +44,12 @@ class Stock extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			//array('visibility, menu_name, end_date, end_time, short_text, img, position, date, in_main', 'required'),
-                        array('visibility, menu_name, end_date, end_time, short_text, img, position, date, in_main', 'safe'),
+                        array('visibility, menu_name, end_date, end_time, short_text, img, position, date, in_main, remark', 'safe'),
 			array('visibility, end_date, end_time, position, date, in_main', 'numerical', 'integerOnly'=>true),
-			array('menu_name, img', 'length', 'max'=>255),
+			array('menu_name, img, remark', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('stock_id, visibility, menu_name, end_date, end_time, short_text, img, position, date, in_main', 'safe', 'on'=>'search'),
+			array('stock_id, visibility, menu_name, end_date, end_time, short_text, img, position, date, in_main, remark', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -80,6 +80,7 @@ class Stock extends CActiveRecord
 			'position' => 'Position',
 			'date' => 'Дата',
 			'in_main' => 'Выводить в слайдере на главной',
+                        'remark' => 'Пометка к форме (будет приходить на почту)',
 		);
 	}
 
@@ -104,6 +105,7 @@ class Stock extends CActiveRecord
 		$criteria->compare('position',$this->position);
 		$criteria->compare('date',$this->date);
 		$criteria->compare('in_main',$this->in_main);
+                $criteria->compare('remark',$this->remark);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

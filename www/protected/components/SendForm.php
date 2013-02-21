@@ -35,6 +35,7 @@ $message = " <html>
                         <tr><td colspan='2'>Заявка с сайта " . Yii::app()->request->serverName . "</td></tr>
                         <tr><td>Имя: </td><td>" . $_POST['name'] . "</td></tr>
                         <tr><td>Телефон: </td><td>" . $_POST['phone'] . "</td></tr>
+                        <tr><td>Пометка: </td><td>" . $_POST['remark'] . "</td></tr>
                     </table>
                 </body>
             </html>";

@@ -14,6 +14,7 @@ if ($model->print_top_form == 1) {
                     <div class="stock-form">
                         <div class="stock-input-str-name"><span>Ваше имя:</span><input id="nameh" name="name" class="stock-input-name"></div>
                         <div class="stock-input-str-phone"><span>Ваш телефон:</span><input id="phoneh" name="phone" class="stock-input-phone"></div>
+                        <input name="remark" type="hidden" value="'.$model->top_form_remark.'">
                         <div class="stock-submit-str"><input type="submit" value="" class="main-top-form-sub2"></div>
                         <div id="countdown' . $model->pages_id . '"></div>   
                         <div class="countdown-str"><span class="day">дней</span><span class="hour">часов</span><span class="min">минут</span><span class="sec">секунд</span></div>
@@ -27,7 +28,7 @@ if ($model->print_top_form == 1) {
 <h1 <?php echo ($model->print_date == 1 ? 'class="h1-date"' : '') ?>><?php echo $model->h1; ?></h1>
 <?php echo ($model->print_date == 1 ? '<span class="main-date">' . date('d.m.Y', $model->date) . '</span>' : ''); ?>
 <?php
-if (isset($_GET['page']) && $_GET['page']<=1){
+if (!isset($_GET['page']) || $_GET['page']<=1){
     echo $model->text;
 }
 if ($model->print_footer_form == 1) {
@@ -39,6 +40,7 @@ if ($model->print_footer_form == 1) {
         <form action="/zayavka-otpravlena" method="post" id="formf">
             <input class="page-footer-form-name" id="namef" name="name" value="Введите Ваше имя">
             <input class="page-footer-form-phone" id="phonef" name="phone" value="Введите Ваш телефон">
+            <input name="remark" type="hidden" value="<?php echo $model->top_form_remark;?>">
             <input type="submit" class="page-footer-form-submit" value="">
         </form>
     </div>
@@ -75,14 +77,19 @@ if (!empty($model->img_top_form)) {
     <?php
 }
 echo '<div class="pages-list">';
+    $z=0;
+    $count = count($items);
 foreach ($items as $item) {
+    $z++;
     $url = GetUrlToPage::getUrlToPageById($item->pages_id);
 
     echo '<a href="' . $url . '">' . ($item->print_date == 1 ? '<div class="news-item-date">' . date('d.m.Y', $item->date) . ' | &nbsp;</div>' : '') . '<h2>' . $item->menu_name . '</h2></a><br clear="all" />';
     echo '<div class="item-short-text">' . (!empty($item->img) ? '<a href="' . $url . '"><img class="list-img" src="/images/pages/' . $item->img . '" alt="' . $item->img_alt . '" title="' . $item->img_title . '" /></a>' : '') . $item->short_text . '</div>';
     echo '<div class="more-i"><a class="more" href="' . $url . '">' . SelectDataFromEditFields::selectValue('pages_list_text') . '</a></div>';
-    echo '<div class="footer-list-line"></div>
+       if ($z<$count) {
+        echo '<div class="footer-list-line"></div>
             <div class="footer-list-line2"></div>';
+    }
 }
 echo '</div>';
 //постраничный наыигатор

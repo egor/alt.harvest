@@ -58,9 +58,10 @@ class Pages extends CActiveRecord {
                 meta_keywords, meta_description, short_text, text, img, 
                 img_alt, img_title, add_1, add_2, in_last, 
                 date, print_top_form, img_top_form, end_date_top_form, end_time_top_form,
-                print_footer_form, text_footer_form, color_footer_form, line_footer_form, print_date, like', 'safe'),
+                print_footer_form, text_footer_form, color_footer_form, line_footer_form, print_date, like,
+                footer_form_remark, top_form_remark', 'safe'),
             array('root, lft, rgt, level, visibility, in_menu, in_last, date, print_date, like', 'numerical', 'integerOnly' => true),
-            array('url, menu_name, h1, img, img_alt, img_title, img_top_form, color_footer_form, line_footer_form', 'length', 'max' => 255),
+            array('url, menu_name, h1, img, img_alt, img_title, img_top_form, color_footer_form, line_footer_form, footer_form_remark, top_form_remark', 'length', 'max' => 255),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
             array('pages_id, root, lft, rgt, level, 
@@ -68,7 +69,8 @@ class Pages extends CActiveRecord {
                 meta_title, meta_keywords, meta_description, short_text, text, 
                 img, img_alt, img_title, add_1, add_2, 
                 in_last, date, print_top_form, img_top_form, end_date_top_form, 
-                end_time_top_form, print_footer_form, text_footer_form, color_footer_form, line_footer_form, print_date, like', 'safe', 'on' => 'search'),
+                end_time_top_form, print_footer_form, text_footer_form, color_footer_form, line_footer_form, print_date, like,
+                footer_form_remark, top_form_remark', 'safe', 'on' => 'search'),
         );
     }
 
@@ -118,8 +120,9 @@ class Pages extends CActiveRecord {
             'color_footer_form'=>'Цвет фона',
             'line_footer_form'=>'Текст под формой',
             'print_date'=>'Выводить дату',
-            'like'=>'Выводить кнопки соц сетей'
-            
+            'like'=>'Выводить кнопки соц сетей',
+            'footer_form_remark' => 'Пометка к форме (будет приходить на почту)',
+            'top_form_remark' => 'Пометка к форме (будет приходить на почту)'            
         );
     }
 
@@ -165,7 +168,9 @@ class Pages extends CActiveRecord {
         $criteria->compare('line_footer_form', $this->line_footer_form, true);
         $criteria->compare('print_date', $this->print_date, true);
         $criteria->compare('like', $this->like, true);
-        
+        $criteria->compare('footer_form_remark',$this->footer_form_remark);
+        $criteria->compare('top_form_remark',$this->top_form_remark);
+
  
 
         return new CActiveDataProvider($this, array(

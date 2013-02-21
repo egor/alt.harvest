@@ -156,6 +156,12 @@ endif;
             <?php echo $form->error($pages, 'print_top_form'); ?>
         </fieldset>
         <fieldset>
+            <?php echo $form->labelEx($pages, 'footer_form_remark'); ?>
+            <?php echo $form->textField($pages, 'footer_form_remark'); ?>
+            <?php echo $form->error($pages, 'footer_form_remark'); ?>
+        </fieldset>
+        
+        <fieldset>
             <?php echo $form->labelEx($pages, 'img_top_form'); ?><br/><br/>
             <p>&nbsp;&nbsp;&nbsp;<?php echo $form->fileField($pages, 'img_top_form'); ?></p>
             <?php
@@ -181,6 +187,12 @@ endif;
             <?php echo $form->checkBox($pages, 'print_footer_form'); ?>
             <?php echo $form->error($pages, 'print_footer_form'); ?>
         </fieldset>
+        <fieldset>
+            <?php echo $form->labelEx($pages, 'top_form_remark'); ?>
+            <?php echo $form->textField($pages, 'top_form_remark'); ?>
+            <?php echo $form->error($pages, 'top_form_remark'); ?>
+        </fieldset>
+        
         <fieldset>
             <?php echo $form->labelEx($pages, 'text_footer_form'); ?>
             <br /><br />

@@ -11,8 +11,9 @@ $this->breadcrumbs=array(
 <?php
 echo $model->text;
 
-
+echo '<br><span class="soc-text">' . SelectDataFromEditFields::selectValue('soc_text') . '</span>';
 ?>
+
     <table class="tsoc">
         <tr>
             <td><span class="bvk">

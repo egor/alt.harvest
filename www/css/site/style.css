@@ -266,6 +266,7 @@ width: 77px;
     margin-left: 8px;
     margin-bottom: 15px;
 }
+
 .right-last-re-header{
     font-size: 21px;
     font-weight: bold;
@@ -1122,7 +1123,7 @@ cursor: pointer;
     margin-top: 40px;
 }
 .page-footer-form-text{
-    height: 45px;
+    /*height: 45px;
 
     width: 510px;
     overflow: hidden;
@@ -1130,7 +1131,11 @@ cursor: pointer;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
+    */
+    height: 52px;
+margin: 1px 10px 4px;
+overflow: hidden;
+width: 510px;
 }
 
 
@@ -1198,12 +1203,11 @@ cursor: pointer;
 }
 .more-i{
     text-align: right;
-    /*width: 528px;*/
-    width: 260px;
+    width: 528px;
+    
     display: inline-tablel;
-    /*margin-top: 5px;*/
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 5px;
+
 
 }
 #leftMenuList li.inner ul li.active{
@@ -1373,7 +1377,7 @@ span.btw iframe.twitter-share-button{
 .soc-text{
     display: inline-table;
     width: 100%;
-    color:#969698;
+    color:#636467;
     font-size: 14px;
     margin-top: 15px;
 }
@@ -1420,6 +1424,12 @@ span.btw iframe.twitter-share-button{
     font-size: 13px;
     color:#636467;
     text-decoration: none;
+    
+}
+.contact-list div.more-i{
+    width: 260px;
+        margin-bottom: 20px;
+    margin-top: -20px;
 }
 .contact-list div.more-i a:hover.more{
     text-decoration: underline;

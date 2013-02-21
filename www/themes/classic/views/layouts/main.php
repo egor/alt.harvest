@@ -167,7 +167,7 @@
                 <div class="footer-sep"></div>
                 <div class="footer">
                     <div class="footer-left">
-                        <div class="footer-left-logo"><a href="/"><img src="/images/site/footer-logo.png" /></a></div>
+                        <div class="footer-left-logo"><a href="/"><img alt="<?php echo SelectDataFromEditFields::selectValue('foter_logo_alt');?>" title="<?php echo SelectDataFromEditFields::selectValue('footer_logo_title'); ?>" src="/images/site/footer-logo.png" /></a></div>
                         <div class="footer-left-phone">
                             <table>
                                 <tr><td><img class="footer-call-phone-ico" src="/images/site/footer-phone-kiyiv.png"></td><td><span><?php echo SelectDataFromEditFields::selectValue('footer_phone_1'); ?></span></td></tr>
@@ -220,6 +220,7 @@
                 <!-- end footer -->
                 
     <script language="JavaScript">
+        window.onload= function(){
         left = $('.left-menu').height();
         center = $('.site-content').height();
         right=$('.right-col').height();
@@ -229,7 +230,7 @@
             $('.site-content').height(right);
         }
         //alert (left +' ' + center + ' ' + right);
-        
+        }
         
         
     </script>

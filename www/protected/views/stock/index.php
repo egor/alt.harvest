@@ -25,6 +25,7 @@ foreach ($model as $value) {
 <div class="stock-form">
 <div class="stock-input-str-name"><span>Ваше имя:</span><input name="name" id="name'.$value->stock_id.'" class="stock-input-name"></div>
 <div class="stock-input-str-phone"><span>Ваш телефон:</span><input name="phone" id="phone'.$value->stock_id.'" class="stock-input-phone"></div>
+<input name="remark" type="hidden" value="'.$value->remark.'">
 <div class="stock-submit-str"><input type="submit" value="" class="main-top-form-sub2"></div>
 <div id="countdown'.$value->stock_id.'"></div>   
 <div class="countdown-str"><span class="day">дней</span><span class="hour">часов</span><span class="min">минут</span><span class="sec">секунд</span></div>
